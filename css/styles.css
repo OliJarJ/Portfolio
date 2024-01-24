@@ -10824,9 +10824,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+/*body*/
 body {
   background: url("../marek-piwnicki-RQr0TJi9T2o-unsplash.jpg") no-repeat center center fixed;
   background-size: cover;
+align-content: center;
+justify-content: center;
 
 }
 
@@ -10880,3 +10884,42 @@ ul {
   justify-self: left;
   align-self:flex-start;
 }
+
+/*logos*/
+#fidelity-logo {
+ width: 35%;
+}
+
+#proscan-logo {
+  width: 35%;
+}
+
+#blueboard-logo {
+  width: 35%;
+}
+
+#os-logo {
+  border-radius: 360px;
+  width:35%;
+}
+
+#uc-logo {
+  width: 50%;
+}
+
+/*container*/
+
+.container {
+  justify-content: center;
+
+  }
+
+  #about-list {
+    text-align: left;
+  }
+
+  #project-container {
+    align-content: center;
+
+
+  }
