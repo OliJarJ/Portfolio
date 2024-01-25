@@ -10921,5 +10921,17 @@ ul {
   #project-container {
     align-content: center;
 
-
   }
+
+  #drumb-kit {
+    display:flex;
+    flex-flow: row;
+    position: relative;
+    margin: auto;
+  }
+  
+/*Nav*/
+.navbar {
+  height: 20vh;
+  
+}
