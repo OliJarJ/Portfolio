@@ -10827,7 +10827,7 @@ textarea.form-control-lg {
 
 /*body*/
 body {
-  background: url("../marek-piwnicki-RQr0TJi9T2o-unsplash.jpg") no-repeat center center fixed;
+  background: url("../mimipic-photography-XmR3y0bp3Kw-unsplash.jpg") no-repeat center center fixed;
   background-size: cover;
 align-content: center;
 justify-content: center;
@@ -10914,9 +10914,10 @@ ul {
 
   }
 
-  #about-list {
+  #list {
     text-align: left;
   }
+
 
   #project-container {
     align-content: center;
@@ -10932,6 +10933,32 @@ ul {
   
 /*Nav*/
 .navbar {
-  height: 20vh;
+  height: 15vh;
   
+}
+#nav-list {
+position:fixed;
+justify-self: center;
+margin-left: 10px;
+margin-right: 10px;
+padding-left: 10px;
+padding-right: 10px
+}
+
+#navbarResponsive {
+justify-self: flex-end;
+}
+
+.navbar-brand {
+justify-self: center;
+margin: 0 auto;
+padding-right: 20px;
+
+}
+
+#photo-of-me {
+  max-width: 450px;
+  border-radius: 360px;
+  display: flex;
+  margin: auto;
 }

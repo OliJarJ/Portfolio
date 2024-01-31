@@ -23,12 +23,14 @@
     <!--Navigation-->
     <nav class="navbar navbar-expand-sm navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="./about.html">Oliver Jarjosa</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
-                    class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span
+                    class="navbar-toggler-icon">
+                </span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav navbar-dark bg-dark" id="nav-list">
                     <li class="nav-item"><a class="nav-link text-white" href="#About">About</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="#Work">Work</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="#Education">Education</a></li>
@@ -37,10 +39,11 @@
                 </ul>
             </div>
         </div>
+         <a class="navbar-brand d-flex row display-2 fw-bold" href="#">Oliver Jarjosa</a>
     </nav>
-<!-- Image -->
-<img src="" alt="" type="thumbnail">
-    <!-- side nav
+    <br>
+
+<!-- side nav
 
     <header>
         <div class="row">
@@ -80,7 +83,7 @@
                                 </h3>
 
                                 <p class="display-6 text-black">Entry level front-end developer</p>
-                                <ul id="about-list" class="text-black">
+                                <ul id="list" class="text-black mx-4 my-4">
                                     <li>Strong foundation in CSS, Javascript & Bootstrap</li>
                                     <li>(Will receive)Certification of Web Development from Kable Academy </li>
                                     <li>Passion for learning and applying the skills acquired along the way.</li>
@@ -90,6 +93,13 @@
                                 <a href="#!" class="btn bsb-btn-3xl btn-primary rounded-pill mb-2 mx-2">Read more</a>
                             </div>
                         </div>
+
+<!-- Image -->
+<div class="container">
+    <div class="row mx-5 my-5">
+<img id="photo-of-me" src="../startbootstrap-the-big-picture-gh-pages/clark-van-der-beken-IZzo5Y_sZXk-unsplash.jpg" alt="" type="thumbnail">
+</div>
+</div> 
 <!--Work & Education Sections-->
                         <div id="Work">
                             <div class="card border-0 border-bottom border-primary shadow-sm">
@@ -102,7 +112,8 @@
                                             alt="Logo for ProScan Imaging">
                                         <div class="panel panel-default bg-light">
                                             <div class="panel-heading">May 2023 - Current</div>
-                                            <div class="panel-body"><ul>
+                                            <div class="panel-body ">
+                                                <ul id="list">
                                                 <li>Accurately entered data and corrected any information that was out of date.</li>
                                                 <li>Communicated with clients to ensure that all information was received in a timely manner.</li>
                                                 <li>Securely handled confidential patient data and insurance information.</li>
@@ -120,7 +131,7 @@
                                                 alt="">
                                             <div class="panel panel-default bg-light">
                                                 <div class="panel-heading">May 2023 - Current</div>
-                                            <div class="panel-body"><ul>
+                                            <div class="panel-body"><ul id="list">
                                                 <li>Provided customers with best deals and well-researched travel options.</li>
                                                 <li>Maintained operational proficiency in coordinating both international and domestic travel accommodations for customers, arranging for airfare as well as hotel and rental car reservations.</li>
                                                 <li>Collaborated with colleagues to implement best practices across department and exceed team goals.</li>
@@ -141,7 +152,7 @@
                                                     alt="">
                                                 <div class="panel panel-default bg-light">
                                                     <div class="panel-heading">May 2023 - Current</div>
-                                                    <div class="panel-body"><ul>
+                                                    <div class="panel-body"><ul id="list">
                                                         <li>Accurately entered data and corrected any information that was out of date.</li>
                                                         <li>Communicated with clients to ensure that all information was received in a timely manner.</li>
                                                         <li>Securely handled confidential patient data and insurance information.</li>
@@ -169,7 +180,7 @@
                                             src="../startbootstrap-the-big-picture-gh-pages/Cincinnati-Bearcats-Logo.png"
                                             alt="">
                                             <div class="panel-heading">May 2023 - Current</div>
-                                            <div class="panel-body"><ul>
+                                            <div class="panel-body"><ul id="list">
                                                 <li>Accurately entered data and corrected any information that was out of date.</li>
                                                 <li>Communicated with clients to ensure that all information was received in a timely manner.</li>
                                                 <li>Securely handled confidential patient data and insurance information.</li>
@@ -183,7 +194,7 @@
                                         <img id="os-logo" src="../startbootstrap-the-big-picture-gh-pages/os-logo.jpg"
                                             alt="Oldfields School logo">
                                             <div class="panel-heading">May 2023 - Current</div>
-                                            <div class="panel-body"><ul>
+                                            <div class="panel-body"><ul id="list">
                                                 <li>Accurately entered data and corrected any information that was out of date.</li>
                                                 <li>Communicated with clients to ensure that all information was received in a timely manner.</li>
                                                 <li>Securely handled confidential patient data and insurance information.</li>
@@ -252,7 +263,7 @@
 <div id="Portfolio" class="container-fluid text-center bg-light">
     <h2 class="mx-4 py-4">Portfolio</h2><br>
 
-    <div class="row text-center align-items-center justify-content-center">
+    <div class="row text-center align-items-center justify-content-center mx-2">
       <div class="col-sm-4">
         <div class="thumbnail">
           <img src="../startbootstrap-the-big-picture-gh-pages/me-and-jelly.png" alt="A preview of our About Me project." width="200" height="200">
