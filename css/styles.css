@@ -10920,8 +10920,6 @@ ul {
 
   #list {
     text-align: left;
-    
-   
   }
 
 
@@ -10965,6 +10963,7 @@ footer {
   margin-top: auto;
 }
 
+/*panels*/
 #education {
   text-align: left;
   justify-content: left;
@@ -10987,6 +10986,7 @@ footer {
   column-gap: 5px;
 }
 
+/*contact*/
 #my-socials {
   flex-direction: row;
   text-align: center;
@@ -11017,8 +11017,25 @@ div {
   margin: auto;
 }
 
+/*portfolio section*/
 #portfolio1 {
   display:flex;
   margin: auto;
   border: 1.5px double white;
+}
+
+/*skills section*/
+#skills-list {
+  list-style: none;
+position:relative;
+display:inline-flex;;
+}
+
+#skills-icons {
+  
+}
+
+#skills-list-2 {
+  list-style: none;
+
 }
