@@ -10919,8 +10919,9 @@ ul {
   }
 
   #list {
-    text-align: center;
-    list-style-type: none;
+    text-align: left;
+    
+   
   }
 
 
@@ -10929,12 +10930,6 @@ ul {
 
   }
 
-  #drumb-kit {
-    display:flex;
-    flex-flow: row;
-    position: relative;
-    margin: auto;
-  }
   
 /*Nav*/
 .navbar {
@@ -10942,15 +10937,6 @@ ul {
   display: flex;
   flex-direction: row-reverse;
   
-}
-#nav-list {
-
-/* position:fixed;
-justify-self: center;
-margin-left: 10px;
-margin-right: 10px;
-padding-left: 10px;
-padding-right: 10px */
 }
 
 #navbarResponsive {
@@ -10980,9 +10966,8 @@ footer {
 }
 
 #education {
-  text-align: center;
-  flex-direction: inherit;
-  justify-content: center;
+  text-align: left;
+  justify-content: left;
 }
 
 #about-list {
@@ -11016,8 +11001,20 @@ footer {
   padding-left: 40px;
 }
 
-#school-title {
-  
+#Portfolio {
+  display: inline-block;
+  flex-wrap: wrap;
 
+  justify-content: center;
 
+}
+
+div {
+  margin: auto;
+}
+
+#portfolio1 {
+  display:flex;
+  margin: auto;
+  border: 1.5px double white;
 }
