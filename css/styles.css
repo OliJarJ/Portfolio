@@ -10825,24 +10825,13 @@ textarea.form-control-lg {
   }
 }
 
-/*body*/
+/*BODY*/
 body {
-  background: url("../mimipic-photography-XmR3y0bp3Kw-unsplash.jpg") no-repeat center center fixed;
+  background: url("../marco-castro-ZEdu8C7Pk7k-unsplash.jpg") no-repeat center center fixed;
   background-size: cover;
 align-content: center;
 justify-content: center;
 
-}
-
-/*Glass pane behind h1 and p*/
-.card {
-  top: 50%; 
-  box-shadow: 0 0 15px 0; 
-  background: inherit; 
-  backdrop-filter: blur(25px); 
-  margin: 100px; 
-  text-align: center; 
-  align-self: center;
 }
 /*Projects*/
 
@@ -10909,12 +10898,15 @@ ul {
 
 #kable-logo {
   width: 35%;
+  justify-content: center;
+  align-self: center;
 }
 
-/*container*/
+/*container for contact*/
 
 .container {
   justify-content: center;
+
 
   }
 
@@ -10925,21 +10917,59 @@ ul {
 
   #project-container {
     align-content: center;
-
   }
 
   
-/*Nav*/
+/*Nav for Portfolio - will be added to all eventually*/
 .navbar {
-  height: 15vh;
   display: flex;
-  flex-direction: row-reverse;
   
 }
 
-#navbarResponsive {
-justify-self: flex-end;
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 12rem; /* Set the width of the sidebar */
+  position: fixed; /* (stay in place on scroll) */
+  z-index: 1; /* Remain at top */
+  top: 0; /* Stay at the top */
+  left: 0; /*no space between left and nav*/
+  background-color: #A85F00 ;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 40px;
+  box-shadow: var(--bs-black) 5px 5px 20px;
 }
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: flex;
+}
+
+li {
+  justify-content: center;
+  font-family: fantasy;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+#nav-list {
+list-style: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #EA972C;
+  color: white;
+}
+
+/*mouse over, color change */
+.sidenav a:hover {
+  background-color: #AB7633;
+  color:#78480A;
+}
+
 
 .navbar-brand {
 justify-self: center;
@@ -10948,19 +10978,35 @@ padding-right: 20px;
 
 }
 
+a.nav-link {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #F7E2C6;
+  display: block;
+  margin-right: 12px;
+}
+
+@media screen and (max-height: 500px) {
+  .sidenav {padding-top: 20px;}
+  .sidenav a {font-size: 18px;}
+}
+
 #photo-of-me {
   display: flex;
   margin: auto;
 }
 
-body {
+/* body {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-}
+  flex-direction: column; }*/
+
 
 footer {
-  margin-top: auto;
+  background-color: #CFA166;
+  margin-bottom: 0;
+  height: 25vh;
 }
 
 /*panels*/
@@ -11006,10 +11052,9 @@ footer {
 }
 
 #Portfolio {
-  display: inline-block;
-  flex-wrap: wrap;
 
   justify-content: center;
+  margin-bottom: 40px;;
 
 }
 
@@ -11031,11 +11076,40 @@ position:relative;
 display:inline-flex;;
 }
 
-#skills-icons {
-  
-}
 
 #skills-list-2 {
   list-style: none;
 
+}
+
+/*Glass pane behind h1 and p*/
+.card {
+  top: 50%; 
+  box-shadow: 0 0 15px 0; 
+  background: inherit; 
+  backdrop-filter: blur(25px); 
+  margin: 100px; 
+  text-align: center; 
+  align-self: center;
+}
+
+h2 {
+  font-family: 'Bodoni MT', 'Bodoni 72', 'Didot', 'Didot LT STD', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#left {
+  float: left;
+  width: 60%;
+  position:relative;
+
+}
+
+#right {
+ float: right;
+ width: 40%;
+}
+
+#madlibs-img {
+  justify-content: flex-start;
+  padding-right: 10rem;
 }

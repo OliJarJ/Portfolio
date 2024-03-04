@@ -14,39 +14,32 @@
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet" />
     <title>Portfolio</title>
-    <!-- Favicon-->
-    <link rel="icon" type="" href="" />
+    
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 
 <body>
 
-    <!--Navigation-->
-    <nav class="navbar navbar-expand-sm navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container px-4 px-lg-5">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">
-                </span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav navbar-dark bg-dark" id="nav-list">
-                    <li class="nav-item"><a class="nav-link text-white" href="#About">About</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#Work">Work</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#Education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#Portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#Contact">Contact</a></li>
+     <!--Navigation-->
+     <nav class="sidenav navbar navbar-expand">
+        <div class="sidenav">
+                <ul id="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#./Work.html">Work</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./education.html">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
-        <a class="navbar-brand d-flex row fw-bold px-4" href="#">Oliver Jarjosa</a>
+        <!-- <a class="navbar-brand d-flex fw-bold px-4" href="#">Oliver Jarjosa</a> -->
     </nav>
     <br>
 
     <!-- Cards -->
     <main>
-        <div id="containerAll" class="container">
+        <div id="containerAll" class="container-fluid ">
             <div class="row">
                 <div id="About" class=" px-3 py-3">
                     <section class="py-3 py-xl-8 px-3">
@@ -60,7 +53,7 @@
                                 <!-- img -->
                                 <div class="containerA">
                                     <div class="row mx-5">
-                                        <img id="photo-of-me" src="./20240204_163032.jpg" alt="" type="thumbnail">
+                                        <img id="photo-of-me" src="./20240204_163032.jpg" alt="logo" type="thumbnail">
                                     </div>
                                     <div class="text">
                                         <p class="display-6 text-secondary fw-bold">Entry Level Web Developer</p>
@@ -76,105 +69,18 @@
                                     <!-- <a href="#!" class="btn bsb-btn-3xl btn-primary rounded-pill mb-2 mx-2">Read more</a> -->
                                 </div>
                             </div>
+                            </div>
 
                             <!-- Image
 <div class="container">
     <div class="row mx-5 my-5">
 <img id="photo-of-me" src="../startbootstrap-the-big-picture-gh-pages/clark-van-der-beken-IZzo5Y_sZXk-unsplash.jpg" alt="" type="thumbnail">
 </div>
-</div> -->
-                            <!--Work & Education Sections-->
-                            <div id="Work">
-                                <div class="card border-0 border-bottom border-primary shadow-sm">
-                                    <div class="card-body p-4 p-xxl-5 bg-light">
-                                        <h4 class="mb-4 text-secondary display-5">Work</h4>
-                                        <ul>
-                                            <h3>Proscan Imaging</h3>
-                                            <img class="py-4" id="proscan-logo"
-                                                src="../startbootstrap-the-big-picture-gh-pages/proscanImagingExcellenceLogo.png"
-                                                alt="Logo for ProScan Imaging">
-                                            <div class="panel panel-default bg-light">
-                                                <div class="panel-heading fw-bold">May 2023 - Current</div>
-                                                <div class="panel-body py-4">
-                                                    <ul id="list">
-                                                        <li>Accurately entered data and corrected any information that
-                                                            was out of date.</li>
-                                                        <li>Communicated with clients to ensure that all information was
-                                                            received in a timely manner.</li>
-                                                        <li>Securely handled confidential patient data and insurance
-                                                            information.</li>
-                                                        <li>Organized written correspondence to request relevant patient
-                                                            details before processing the cases.</li>
-                                                        <li>Conveyed attention to detail and proficiency in utilizing
-                                                            ERP software.</li>
-                                                    </ul>
-                                                </div>
+</div> -->                        
 
-                                                <br>
-                                                <hr>
-                                                <br>
-
-                                                <h3>Blueboard Inc.</h3>
-                                                <img class="py-4" id="blueboard-logo"
-                                                    src="../startbootstrap-the-big-picture-gh-pages/639ce07b66f416168ceaee73_BBApproach_Gloji.webp"
-                                                    alt="">
-                                                <div class="panel panel-default bg-light">
-                                                    <div class="panel-heading fw-bold">November 2022 - May 2023</div>
-                                                    <div class="panel-body py-4">
-                                                        <ul id="list">
-                                                            <li>Provided customers with best deals and well-researched
-                                                                travel options.</li>
-                                                            <li>Maintained operational proficiency in coordinating both
-                                                                international and domestic travel accommodations for
-                                                                customers, arranging for airfare as well as hotel and
-                                                                rental car reservations.</li>
-                                                            <li>Collaborated with colleagues to implement best practices
-                                                                across department and exceed team goals.</li>
-                                                            <li>Organized memorable and exquisite travel itineraries and
-                                                                vacations for high-level clients and business partners.
-                                                            </li>
-
-                                                        </ul>
-                                                    </div>
-
-                                                    <br>
-                                                    <hr>
-                                                    <br>
-
-
-
-
-                                                    <h3>Fidelity Investments</h3>
-                                                    <img class="py-4" id="fidelity-logo"
-                                                        src="../startbootstrap-the-big-picture-gh-pages/fidelity-investments-logo-3.png"
-                                                        alt="">
-                                                    <div class="panel panel-default bg-light">
-                                                        <div class="panel-heading fw-bold">July 2022 - November 2022
-                                                        </div>
-                                                        <div class="panel-body py-4">
-                                                            <ul id="list">
-                                                                <li>Engaged with participants with an empathetic,
-                                                                    informative manner.</li>
-                                                                <li>Practiced active listening and clarifying
-                                                                    questioning in order to narrow down a participant's
-                                                                    underlying needs.</li>
-                                                                <li>Educated and explained the details within client
-                                                                    plans and broke down options available to
-                                                                    participants regarding their 401k finances.</li>
-                                                                <li>De-escalated calls which were emotionally charged
-                                                                    and maintained a professional, understanding
-                                                                    demeanor when conversations couldn't be immediately
-                                                                    refocused.</li>
-                                                                <li>Expressed a clear desire to provide exceptional
-                                                                    customer service and went the extra mile to assist
-                                                                    participants with needs that weren't easily
-                                                                    remedied.</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-
-                                        </ul>
 <br>
+                          
+
 <!-- skills -->
 <div id="container" class="row container">
     <div class=" bg-light py-5">
@@ -185,11 +91,11 @@
         <div id="containerB" class="container">
             <div class="text">
                 <ul id="skills-list" class="block text-black mx-4 my-4">
-                    <li class="px-4 text-info"><p><i id="skills-icons" class="fa-brands fa-html5"></i></p></li>
-                    <li class="px-4 text-info"><p><i id="skills-icons" class="fa-brands fa-css3"></i></p></li>
-                    <li class="px-4 text-info"><p><i id="skills-icons" class="fa-brands fa-js"></i></p>
+                    <li class="px-4 text-info"><p><i id="skills-icons" class="fa-brands fa-html5 fa-2xl"></i></p></li>
+                    <li class="px-4 text-info"><p><i id="skills-icons" class="fa-brands fa-css3 fa-2xl"></i></p></li>
+                    <li class="px-4 text-info"><p><i id="skills-icons" class="fa-brands fa-js fa-2xl"></i></p>
                     </li>
-                    <li class="px-4 text-info"><p><i id="skills-icons" class="fa-brands fa-square-github"></i></p>
+                    <li class="px-4 text-info"><p><i id="skills-icons" class="fa-brands fa-square-github fa-2xl"></i></p>
                     </li>
                     </li>  
                 </ul>
@@ -209,16 +115,16 @@
         </div>
     </div>
 
-                                        <!-- <a href="#!" class="fw-bold text-decoration-none link-primary">
-                                                Learn More
-                                            </a>-->
+                                       
                                     </div>
                                 </div>
+
                             </div>
+
                             <div id="Education" class="section text-center">
                                 <!-- <div class="card border-0 border-bottom border-primary shadow-sm"> -->
                                 <ul class="mt-2 py-2 text-black">
-                                    <div class="panel-body p-4 p-xxl-5 bg-light">
+                                    <div class="card p-4 p-xxl-5 bg-light">
                                         <h4 class="mb-4 text-secondary display-5">Education</h4>
                                         <h6 class=" display-6">Certificate of Web Development</h6>
                                         <h4>Kable Academy</h4>
@@ -280,133 +186,11 @@
                 </div>
 
 
-                <!--Project Cards (alternate)
-        <div id="project-container" class="container">
-            <div class="row m-5 align-items-center justify-content-center flex-column">
-                <div class="">
-                    <div class="card" style="width:25rem">
-                        <img src="../startbootstrap-the-big-picture-gh-pages/me-and-jelly.png"
-                            alt="My cat Jellybean and me" class="card-image-top">
-                        <h5 class="card-title display-5 text-underline">About Me</h5>
-                        <p class=" text-truncate">This project consisted of creating linked html pages exploring our
-                            work and educational experience.</p>
-                        <a href="https://olijarj.github.io/About-Me-Pages/" class="btn btn-primary">See More</a>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="card" style="width:25rem">
-                        <img src="../startbootstrap-the-big-picture-gh-pages/mad-libs-screenshot.jpg" alt=""
-                            class="card-image-top">
-                        <h5 class="card-title display-5">Project Title</h5>
-                        <p class="para1">Eerie photo of an escalator</p>
-                        <a href="https://olijarj.github.io/Madlibs/" class="btn btn-primary">See More</a>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="card" style="width:25rem">
-                        <img src="../startbootstrap-the-big-picture-gh-pages/marek-piwnicki-RQr0TJi9T2o-unsplash.jpg"
-                            alt="" class="card-image-top">
-                        <h5 class="card-title display-5">Project Title</h5>
-                        <p>Eerie photo of an escalator</p>
-                        <a href="" class="btn btn-primary">See More</a>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="card row justify-content-evenly" style="width:25rem">
-                        <img src="../startbootstrap-the-big-picture-gh-pages/pierre-chatel-innocenti-lSJhONabotU-unsplash.jpg"
-                            alt="" class="card-image-top">
-                        <h5 class="card-title display-5">Project Title</h5>
-                        <p class="para1">Eerie photo of an escalator</p>
-                        <a href="" class="btn btn-primary">See More</a>
-                    </div>
-                </div>
-            </div>
-        </div>-->
-
-                <!-- Container (Main Portfolio Section) -->
-                <div id="Portfolio" class="container">
-
-                    <div class=align-items-center justify-content-center">
-                        <h2 id="portfolio1" class="text-secondary display-5 text-white justify-content-center">Portfolio</h2>
+ 
 
 
 
-                        <!-- Project 1 -->
-                        <div class="card justify-content-center bg-light">
-                            <div class=" col-sm-6">
-                                <p class="my-4"><strong>About Me</strong></p>
-                                <img src="../startbootstrap-the-big-picture-gh-pages/me-and-jelly.png"
-                                    alt="A preview of our About Me project." width="200px" height="200px">
-                                <p class="px-4 py-4 mx-4 my-2">'About Me' was the first project assigned in our Web
-                                    Development course. This project
-                                    consists primarily of HTML and a few lines of CSS completed within the HTML
-                                    document.</p>
-                                    <div class="my-2">
-                                        <a href="https://olijarj.github.io/About-Me-Pages/"><button class="btn rounded-pill bg-info" type="button">See More</button></a>
-                                        </div> 
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <!-- Project 2 -->
-                    <div class="card justify-content-center bg-light">
-                        <div class="col-sm-6">
-
-                            <p class="my-4"><strong>Mad Libs</strong></p>
-                            <img class="justify-content-center" src="./madlibs updated version.png"
-                                alt="A preview of our Mad Libs inspired project." width="200" height="200">
-                            <p class="px-4 py-4 mx-4 my-2">The first portion of this project was to create a form to
-                                accept words that will eventually
-                                fill out a Mad Libs template. This project used both HTML and a CSS stylesheet.</p>
-                                <div class="my-2">
-                                    <a href="https://olijarj.github.io/Madlibs/"><button class="btn rounded-pill bg-info" type="button">See More</button></a>
-                                    </div> 
-                                </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 3 -->
-                    <div class="card justify-content-center bg-light">
-                        <div class="col-sm-6 justify-content-center">
-                            <p class="my-4"><strong>Product Landing Page</strong></p>
-                            <img src="../startbootstrap-the-big-picture-gh-pages/product-landing-project.png"
-                                alt="A preview of our Product Landing Page project." width="200" height="200">
-
-                            <p class="px-4 py-4 mx-4 my-2">This project consisted of creating a landing page for a
-                                specific product. My page presented
-                                home remodeling and interior design. In this project, HTML, CSS & Bootstrap were
-                                combined to
-                                create an inviting and professional layout.</p>
-                                <div class="my-2">
-                                    <a href="https://olijarj.github.io/Product-Landing-Page/"><button class="btn rounded-pill bg-info" type="button">See More</button></a>
-                                    </div> 
-                                </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 4 -->
-                    <div id="drumb-kit" class="card justify-content-center bg-light">
-                        <div class="col-sm-6">
-                            <p class="my-4"><strong>JavaScript Drumb Kit</strong></p>
-                            <img class="justify-content-center" src="./Retro-Drumb-Kit.png"
-                                alt="A preview of our JavaScript Drumb Kit project." width="200" height="200">
-
-                            <p class="px-4 py-4 mx-4 my-2">In this project, we focused on establishing a connection
-                                between the buttons on the
-                                keyboard and the labeled buttons on the screen. With the use of JavaScript, Bootstrap,
-                                HTML &
-                                CSS, we customized the drumb kit changing the sounds and visual aspects of the page.</p>
-                           <div class="my-2">
-                            <a href="https://olijarj.github.io/javaScriptDrumKit/"><button class="btn rounded-pill bg-info" type="button">See More</button></a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <br>
+                
 
             <hr>
             <!-- Contact
@@ -453,45 +237,7 @@
             </div>
         </section>-->
             <br>
-            <div id="Contact" class="container">
-                <div id="contact1" class="container my-2 mx-4">
-                    <h3 class="text-center fw-bolder text-white">Contact</h3>
-                    <p class="text-center text-white px-2"><em>Leave me a message!</em></p>
-
-                    <div class="row mx-4 my-4 px-2 py-2">
-                        <div id="contactDetails" class="col-md-3 my-2">
-                            <p class="text-white fw-bold"><i class="fa-solid fa-house-chimney fa-lg"></i> Cincinnati,
-                                Ohio,
-                                US</p>
-                            <p class="text-white fw-bold"><i class="fa-solid fa-phone fa-lg"></i> xxx-xxx-xxxx</p>
-                            <p class="text-white fw-bold mx-2"><i class="fa-solid fa-envelope fa-lg"></i>
-                                oliverjarjosa@gmail.com
-                            </p>
-                        </div>
-
-                        <!--forms-->
-                        <div id="contact2" class="col-md-6 px-4 py-4">
-                            <div class="row">
-                                <div class="col-sm-6 form-group my-3">
-                                    <input class="form-control" id="name" name="name" placeholder="Name" type="text"
-                                        required>
-                                </div>
-                                <div class="col-sm-6 form-group my-3">
-                                    <input class="form-control" id="email" name="email" placeholder="Email" type="email"
-                                        required>
-                                </div>
-                            </div>
-
-                            <textarea class="form-control" id="comments" name="comments" placeholder="Comment"
-                                rows="5"></textarea>
-
-                            <div>
-                                <div class="col-md-12 form-group my-5 py-2">
-                                    <button class="btn rounded-pill bg-info" type="submit">Send</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          
     </main>
     <!-- Aside 
     <aside class="page-sidebar">
