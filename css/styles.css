@@ -10826,8 +10826,9 @@ textarea.form-control-lg {
 }
 
 /*BODY*/
+
 body {
-  background: url("../marco-castro-ZEdu8C7Pk7k-unsplash.jpg") no-repeat center center fixed;
+  background: url("../img/polina-abramova-i1qKR27PqDc-unsplash.jpg") no-repeat center center fixed;
   background-size: cover;
 align-content: center;
 justify-content: center;
@@ -10928,27 +10929,29 @@ ul {
 
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 12rem; /* Set the width of the sidebar */
+  width: 8rem; /* Set the width of the sidebar */
   position: fixed; /* (stay in place on scroll) */
   z-index: 1; /* Remain at top */
   top: 0; /* Stay at the top */
   left: 0; /*no space between left and nav*/
-  background-color: #A85F00 ;
+  background-color: var(--bs-black);
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 40px;
-  box-shadow: var(--bs-black) 5px 5px 20px;
+  /* box-shadow: var(--bs-black) 5px 5px 25px; */
 }
 
 .sidenav a {
     text-decoration: none;
     font-size: 15px;
-    color: #818181;
+    color: #ba8759;
     display: flex;
+    margin-top: 20px;
 }
 
 li {
   justify-content: center;
   font-family: fantasy;
+
 }
 
 li:last-child {
@@ -10960,14 +10963,13 @@ list-style: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #EA972C;
-  color: white;
+  color: #e9ffdb;
 }
 
 /*mouse over, color change */
 .sidenav a:hover {
-  background-color: #AB7633;
-  color:#78480A;
+  color: #e9ffdb;
+  background-color: #c0c0c0 ;
 }
 
 
@@ -10982,10 +10984,12 @@ a.nav-link {
   padding: 8px;
   text-decoration: none;
   font-size: 18px;
-  color: #F7E2C6;
+  color: #738678;
   display: block;
   margin-right: 12px;
 }
+
+
 
 @media screen and (max-height: 500px) {
   .sidenav {padding-top: 20px;}
@@ -11004,7 +11008,7 @@ a.nav-link {
 
 
 footer {
-  background-color: #CFA166;
+  background-color: black;
   margin-bottom: 0;
   height: 25vh;
 }
@@ -11038,21 +11042,20 @@ footer {
   text-align: center;
 }
 
-#Contact {
-  border: 4px solid white;
-}
-
-#contactDetails {
+/* #contactDetails {
   margin-left: 20px;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
 
+} */
+
+#Contact {
+margin-left: 15rem;
 }
 
 #Portfolio {
-
   justify-content: center;
   margin-bottom: 40px;;
 
@@ -11085,31 +11088,59 @@ display:inline-flex;;
 /*Glass pane behind h1 and p*/
 .card {
   top: 50%; 
-  box-shadow: 0 0 15px 0; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background: inherit; 
   backdrop-filter: blur(25px); 
   margin: 100px; 
   text-align: center; 
   align-self: center;
+  width: 420px;
+  border-radius: 10px;
+  transition: transform 0.5s ease;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
-h2 {
+.card:hover {
+  transform: translateY(-8px);
+}
+.card-content {
+  padding: 20px;
+}
+.card img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/*Card button mouseover color change*/
+/* .btn:hover:not(.active) {
+  color: #e9ffdb;
+}
+
+/*mouse over, color change */
+/* .btn:hover {
+  color: #e9ffdb;
+  background-color: #c0c0c0 ;
+} */ */
+
+
+h2, h3, h4 {
   font-family: 'Bodoni MT', 'Bodoni 72', 'Didot', 'Didot LT STD', Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#left {
-  float: left;
-  width: 60%;
-  position:relative;
-
+#madlibsp {
+  border-left: solid var(--bs-gray-600) 5px;
+  border-left-width: 4px;
+ text-align: left;
+ font-size: large;
+}
+#madlibs-list {
+  list-style: none;
+  text-align: left;
+  font-size: large;
 }
 
-#right {
- float: right;
- width: 40%;
-}
 
-#madlibs-img {
-  justify-content: flex-start;
-  padding-right: 10rem;
-}
+
