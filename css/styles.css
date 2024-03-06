@@ -10828,7 +10828,7 @@ textarea.form-control-lg {
 /*BODY*/
 
 body {
-  background: url("../img/polina-abramova-i1qKR27PqDc-unsplash.jpg") no-repeat center center fixed;
+  background: url("../img/nelson-flores-y_yKkAYsQRQ-unsplash.jpg") no-repeat center center fixed;
   background-size: cover;
 align-content: center;
 justify-content: center;
@@ -10898,7 +10898,7 @@ ul {
 }
 
 #kable-logo {
-  width: 35%;
+  width: 50%;
   justify-content: center;
   align-self: center;
 }
@@ -10921,10 +10921,9 @@ ul {
   }
 
   
-/*Nav for Portfolio - will be added to all eventually*/
+/*Navbar*/
 .navbar {
   display: flex;
-  
 }
 
 .sidenav {
@@ -10950,7 +10949,8 @@ ul {
 
 li {
   justify-content: center;
-  font-family: fantasy;
+  font-family: 'Lucida Sans';
+  font-size:large;
 
 }
 
@@ -10963,13 +10963,13 @@ list-style: none;
 }
 
 li a:hover:not(.active) {
-  color: #e9ffdb;
+  color: var(--bs-white);
 }
 
 /*mouse over, color change */
 .sidenav a:hover {
   color: #e9ffdb;
-  background-color: #c0c0c0 ;
+  background-color: var(--bs-gray-800);
 }
 
 
@@ -10984,7 +10984,7 @@ a.nav-link {
   padding: 8px;
   text-decoration: none;
   font-size: 18px;
-  color: #738678;
+  color: var(--bs-white);
   display: block;
   margin-right: 12px;
 }
@@ -10999,6 +10999,13 @@ a.nav-link {
 #photo-of-me {
   display: flex;
   margin: auto;
+}
+
+
+#photo-of-me {
+  max-width: 50%;
+  max-height:50%;
+  image-rendering: optimizeQuality ;
 }
 
 /* body {
@@ -11021,12 +11028,6 @@ footer {
 
 #about-list {
   text-align: left;
-}
-
-#photo-of-me {
-  max-width: 50%;
-  max-height:50%;
-  image-rendering: optimizeQuality ;
 }
 
 #containerA {
@@ -11085,28 +11086,48 @@ display:inline-flex;;
 
 }
 
-/*Glass pane behind h1 and p*/
+/*Portfolio Page Cards*/
+/*Glass pane behind form*/
+/*Animations*/
 .card {
   top: 50%; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background: inherit; 
   backdrop-filter: blur(25px); 
-  margin: 100px; 
+  margin: 50px; 
   text-align: center; 
   align-self: center;
-  width: 420px;
+  width: 450px;
   border-radius: 10px;
-  transition: transform 0.5s ease;
+  transition: transform 0.3s ease;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+.cardp:hover {
+  transform: translateY(-8px);
+}
+
+/*Contact Page card edits*/
+/*Glass pane behind*/
+#Contact {
+  top: 50%; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: inherit; 
+  backdrop-filter: blur(10px); 
+  margin: 50px; 
+  text-align: center; 
+  align-self: center;
+  border-radius: 10px;
+  /* transition: transform 0.3s ease; */
   margin-left: 10rem;
   margin-right: 10rem;
 }
 
-.card:hover {
-  transform: translateY(-8px);
-}
+
 .card-content {
   padding: 20px;
 }
+
 .card img {
   width: 100%;
   border-radius: 10px 10px 0 0;
@@ -11123,11 +11144,15 @@ display:inline-flex;;
 /* .btn:hover {
   color: #e9ffdb;
   background-color: #c0c0c0 ;
-} */ */
+} */ 
 
 
-h2, h3, h4 {
-  font-family: 'Bodoni MT', 'Bodoni 72', 'Didot', 'Didot LT STD', Verdana, Geneva, Tahoma, sans-serif;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Optima', Geneva, Tahoma, sans-serif;
+}
+
+p {
+  font-family: 'Didot LT STD'
 }
 
 #madlibsp {
@@ -11136,11 +11161,70 @@ h2, h3, h4 {
  text-align: left;
  font-size: large;
 }
+
 #madlibs-list {
   list-style: none;
   text-align: left;
   font-size: large;
 }
 
+#contactfooter {
+  list-style: none;
+}
 
+  #contactDetails p{
+    font-family: 'Bodoni 72', 'Bodoni MT', 'Courier New', Courier, monospace;
+    font-size:medium
+  }
 
+  /*Work*/
+
+  .panel-body {
+    font-family: 'Bodoni 72', 'Bodoni MT', 'Courier New', Courier, monospace;
+  }
+
+/*Blog Style Cards*/
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+/* .leftcolumn {
+  float: left;
+  width: 55%;
+  margin-left: 20vh; */
+/* } */
+
+/* Right column */
+/* .rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+} */
+
+/* Fake image */
+/* .fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+} */
+
+/* Add a card effect for articles */
+/* .card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+} */
+
+/* Clear the floats after the columns */
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+/* @media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+} */
