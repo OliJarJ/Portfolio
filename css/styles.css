@@ -10828,7 +10828,7 @@ textarea.form-control-lg {
 /*BODY*/
 
 body {
-  background: url("../img/nelson-flores-y_yKkAYsQRQ-unsplash.jpg") no-repeat center center fixed;
+  background: url("../img/christian-holzinger-CUY_YHhCFl4-unsplash.jpg") no-repeat center center fixed;
   background-size: cover;
 align-content: center;
 justify-content: center;
@@ -10876,18 +10876,6 @@ ul {
 }
 
 /*logos*/
-#fidelity-logo {
- width: 35%;
-}
-
-#proscan-logo {
-  width: 35%;
-}
-
-#blueboard-logo {
-  width: 35%;
-}
-
 #os-logo {
   border-radius: 360px;
   width:35%;
@@ -10904,12 +10892,6 @@ ul {
 }
 
 /*container for contact*/
-
-.container {
-  justify-content: center;
-
-
-  }
 
   #list {
     text-align: left;
@@ -10928,12 +10910,12 @@ ul {
 
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 8rem; /* Set the width of the sidebar */
+  width: 10rem; /* Set the width of the sidebar */
   position: fixed; /* (stay in place on scroll) */
   z-index: 1; /* Remain at top */
   top: 0; /* Stay at the top */
   left: 0; /*no space between left and nav*/
-  background-color: var(--bs-black);
+  background-color: gray;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 40px;
   /* box-shadow: var(--bs-black) 5px 5px 25px; */
@@ -10968,8 +10950,9 @@ li a:hover:not(.active) {
 
 /*mouse over, color change */
 .sidenav a:hover {
-  color: #e9ffdb;
-  background-color: var(--bs-gray-800);
+  color: #FFF5EE;
+  background:#C4A484;
+  
 }
 
 
@@ -10982,11 +10965,12 @@ padding-right: 20px;
 
 a.nav-link {
   padding: 8px;
+  padding-right: 8px;
   text-decoration: none;
   font-size: 18px;
-  color: var(--bs-white);
+  color: white;
   display: block;
-  margin-right: 12px;
+  margin-right: 16px;
 }
 
 
@@ -10996,28 +10980,38 @@ a.nav-link {
   .sidenav a {font-size: 18px;}
 }
 
-#photo-of-me {
-  display: flex;
-  margin: auto;
-}
-
 
 #photo-of-me {
-  max-width: 50%;
-  max-height:50%;
-  image-rendering: optimizeQuality ;
+  margin-top: 0;
+  padding-top: 0;
+  height: 600px;
+  margin-bottom: 10vh;
+  margin-top: 10vh;
+  /* margin-right: 10vh; */
+
+  border: solid white 25px;
 }
 
-/* body {
+#containerintro {
+  margin-top: 25vh;
+}
+
+#containerskills {
+  margin-left: 50vh;
+  
+}
+
+body {
   min-height: 100vh;
   display: flex;
-  flex-direction: column; }*/
+  flex-direction: column; }
 
 
 footer {
-  background-color: black;
+  background-color: #E0BFB8;
   margin-bottom: 0;
   height: 25vh;
+  margin-top: 0;
 }
 
 /*panels*/
@@ -11043,17 +11037,13 @@ footer {
   text-align: center;
 }
 
-/* #contactDetails {
+#contactDetails {
   margin-left: 20px;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
 
-} */
-
-#Contact {
-margin-left: 15rem;
 }
 
 #Portfolio {
@@ -11076,14 +11066,9 @@ div {
 /*skills section*/
 #skills-list {
   list-style: none;
-position:relative;
-display:inline-flex;;
-}
-
-
-#skills-list-2 {
-  list-style: none;
-
+display:flex;
+flex-direction: column;
+align-items: flex-end;
 }
 
 /*Portfolio Page Cards*/
@@ -11102,6 +11087,7 @@ display:inline-flex;;
   transition: transform 0.3s ease;
   margin-left: 10rem;
   margin-right: 10rem;
+
 }
 .cardp:hover {
   transform: translateY(-8px);
@@ -11133,26 +11119,84 @@ display:inline-flex;;
   border-radius: 10px 10px 0 0;
   margin-top: 0;
   padding-top: 0;
+  height: 400px;
 }
+
 
 /*Card button mouseover color change*/
-/* .btn:hover:not(.active) {
+.btn:hover:not(.active) {
   color: #e9ffdb;
-}
+  background-color: #E1C16E;
+} 
 
 /*mouse over, color change */
-/* .btn:hover {
-  color: #e9ffdb;
-  background-color: #c0c0c0 ;
-} */ 
+.btn:hover {
+  color: peru;
+  background-color: #E1C16E;
+} 
 
+button.btn {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  background-color: #DAA06D;
+  border: double #E1C16E 3px;
+  text-align: center;
+}
+
+/*Work card*/
+#workcards {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: inherit; 
+  backdrop-filter: blur(30px); 
+  margin-bottom: 15vh;
+  padding-bottom: 10vh;
+  margin-right: 8vh;
+}
+
+/* .header {
+  grid-area: header;
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+} */
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas: 
+      'header header header header header header' 
+      'left left left left left left' 
+      'middle middle middle middle middle middle' 
+      'right right right right right right' 
+      'footer footer footer footer footer footer';
+  }
+}
+
+
+#fidelity-logo {
+  width: 35%;
+}
+
+#proscan-logo {
+  width: 35%;
+}
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}
+/*End Work Page*/
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Optima', Geneva, Tahoma, sans-serif;
+  font-family: 'Optima', 'Geneva', Tahoma, sans-serif;
 }
 
 p {
-  font-family: 'Didot LT STD'
+  font-family: 'Didot LT STD', 'Courier'
 }
 
 #madlibsp {
@@ -11173,32 +11217,32 @@ p {
 }
 
   #contactDetails p{
-    font-family: 'Bodoni 72', 'Bodoni MT', 'Courier New', Courier, monospace;
+    font-family: 'Optima', Geneva, Tahoma, sans-serif;
     font-size:medium
   }
 
   /*Work*/
 
   .panel-body {
-    font-family: 'Bodoni 72', 'Bodoni MT', 'Courier New', Courier, monospace;
+    font-family: 'Optima', Geneva, Tahoma, sans-serif;
   }
 
 /*Blog Style Cards*/
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
-/* .leftcolumn {
+.leftcolumn {
   float: left;
   width: 55%;
-  margin-left: 20vh; */
-/* } */
+  margin-left: 20vh;
+}
 
 /* Right column */
-/* .rightcolumn {
+.rightcolumn {
   float: left;
   width: 25%;
   padding-left: 20px;
-} */
+}
 
 /* Fake image */
 /* .fakeimg {
@@ -11208,23 +11252,23 @@ p {
 } */
 
 /* Add a card effect for articles */
-/* .card {
+.card {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
-} */
+}
 
 /* Clear the floats after the columns */
-/* .row:after {
+.row:after {
   content: "";
   display: table;
   clear: both;
-} */
+}
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-/* @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {
     width: 100%;
     padding: 0;
   }
-} */
+}

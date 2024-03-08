@@ -1,77 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/styles.css" rel="stylesheet" />
-     <!-- Font Awesome icons (free version)-->
-     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-     <!-- Google fonts-->
-     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-     <link
-         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-         rel="stylesheet" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet" />
     <title>Contact</title>
 </head>
+
 <body>
-   <!--Navigation-->
-   <nav class="sidenav navbar navbar-expand">
-    <div class="sidenav">
+    <!--Navigation-->
+    <nav class="sidenav navbar navbar-expand">
+        <div class="sidenav">
             <ul id="nav-list">
-                <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#./Work.html">Work</a></li>
+                <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./Work.html">Work</a></li>
                 <li class="nav-item"><a class="nav-link" href="./education.html">Education</a></li>
                 <li class="nav-item"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
                 <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
             </ul>
         </div>
-    </div>
-    <!-- <a class="navbar-brand d-flex fw-bold px-4" href="#">Oliver Jarjosa</a> -->
-</nav>
+        </div>
+        <!-- <a class="navbar-brand d-flex fw-bold px-4" href="#">Oliver Jarjosa</a> -->
+    </nav>
 
-<!--Contact-->
+    <!--Contact-->
 
-<div class="container">
-      <!-- forms -->
-      <div id="Contact" class="card">
-        <div class="container my-2">
-            <!-- <h3 class="text-center display-4 text-white">Contact</h3> -->
-            <p class="text-center text-black py-2 display-6 fw-bold"><em>Leave me a message!</em></p>
-
+    <div class="container">
+        <!-- forms -->
+        <div id="Contact" class="cardp col-10 bg-black">
+            <div class="column">
             
-                <div id="contactDetails" class="col-8">
-                    <p class="text-black"><i class="fa-solid fa-house-chimney fa-lg"></i> Cincinnati,
+                <!-- <h3 class="text-center display-4 text-white">Contact</h3> -->
+                <p class="text-center text-white py-2 display-6 fw-bold"><em>Leave me a message!</em></p>
+
+
+                <div id="contactDetails" class="row">
+                    <p class="text-white fw-bold"><i class="fa-solid fa-house-chimney fa-lg"></i> Cincinnati,
                         Ohio,
                         US</p>
-                    <p class="text-black"><i class="fa-solid fa-phone fa-lg"></i> xxx-xxx-xxxx</p>
-                    <p class="text-black mx-2"><i class="fa-solid fa-envelope fa-lg"></i>
+                    <p class="text-white mx-2 fw-bold"><i class="fa-solid fa-envelope fa-lg"></i>
                         oliverjarjosa@gmail.com
                     </p>
-           
 
-                <!--forms-->
-                <div class="form">
-                    <div class="row">
-                        <div class="col-sm-6 form-group my-3">
-                            <input class="form-control" id="name" name="name" placeholder="Name" type="text"
-                                required>
+
+                    <!--forms-->
+                    <div class="form">
+                        <div class="row">
+                            <div class="col-sm-6 form-group my-3">
+                                <input class="form-control" id="name" name="name" placeholder="Name" type="text"
+                                    required>
+                            </div>
+                            <div class="col-sm-6 form-group my-3">
+                                <input class="form-control" id="email" name="email" placeholder="Email" type="email"
+                                    required>
+                            </div>
                         </div>
-                        <div class="col-sm-6 form-group my-3">
-                            <input class="form-control" id="email" name="email" placeholder="Email" type="email"
-                                required>
+
+                        <textarea class="form-control" id="comments" name="comments" placeholder="Comment"
+                            rows="5"></textarea>
+
+                        <div>
+                            <div class="col-md-12 form-group my-5 py-2">
+                                <button class="btn rounded-pill" type="submit">Send</button>
+                            </div>
                         </div>
-                    </div>
+                        <div class="row">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3090.611176869781!2d-84.37845712353605!3d39.228995627069644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8840536f0dec042f%3A0x54c665d266579f3e!2sKable%20Academy!5e0!3m2!1sen!2sus!4v1709822438219!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-                    <textarea class="form-control" id="comments" name="comments" placeholder="Comment"
-                        rows="5"></textarea>
-
-                    <div>
-                        <div class="col-md-12 form-group my-5 py-2">
-                            <button class="btn rounded-pill bg-info" type="submit">Send</button>
+                        <div class="container py-4"><p class="fw-bold my-2 text-white">Kable Academy</p><p class="fw-bold my-2 text-white">
+                            4901 Hunt Rd Ste 200
+                        </p>
+                        <p class="fw-bold my-2 text-white">Blue Ash, OH 45242</p>
+                        </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        </div>
+        
+
+    
+        <footer class="footer">
+            <!-- <h1>My footer</h1> -->
+
+            <div id="my-socials" class="align-items-center py-4">
+
+                <div class="container">
+                    <h3>Contact</h3>
+                  
+                    <ul id="contactfooter" class="text-white">
+                        <li>email: oliverjarjosa@gmail.com</li>
+                        <li>Github: </li>
+                    </ul>
+                   
+                </div>
+
+
+                <p id="linkedin" class="text-white"> <a class="text-white"
+                        href="https://www.linkedin.com/in/oliver-jarjosa/"><i
+                            class="fa-brands fa-linkedin fa-2xl"></i></a>
+                </p>
+            </div>
+
+        </footer>
+       
+
 </body>
 
 </html>
