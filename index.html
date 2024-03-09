@@ -21,8 +21,8 @@
 <body>
 
     <!--Navigation-->
-    <nav class="sidenav navbar navbar-expand">
-        <div class="sidenav">
+    <nav class=" navbar navbar-expand">
+        <div class="position-fixed top-0 start-0 bg-black h-100 col-2">
             <ul id="nav-list">
                 <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="./Work.html">Work</a></li>
@@ -38,51 +38,64 @@
 
     <!-- Cards -->
     <main>
-        <!-- About -->
-        <div class="card col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 py-5 px-4" style="margin-left: 30vh;">
-            <div>
-                <h3 class="display-6 text-white mt-4 px-4">Entry Level Web Developer</h3>
-                <ul id="about-list" class=" text-black mx-4 my-4">
-                    <li>Strong foundation in HTML, CSS, & Java Script.</li>
+     <!--Intro section-->
+        <div class="container">
+            <div class="row offset-2">
+                <div class="" style="">
+                    <div class="card  col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 py-5 px-4">
+                        <h3 class="display-6 text-white mt-4 px-4">Junior Web Developer</h3>
+                        <ul id="about-list" class=" text-white mx-4 my-4">
+                            <li>Strong foundation in HTML, CSS, & Java Script.</li>
 
-                    <li>On track to receive my Certification of Web Development from Kable
-                        Academy.</li>
-                    <li>Passion for learning and applying the skills acquired along the way.
-                    </li>
-                    <li>Creative, problem-solver, and keen attention to detail.</li>
-                </ul>
+                            <li>On track to receive my Certification of Web Development from Kable
+                                Academy.</li>
+                            <li>Passion for learning and applying the skills acquired along the way.
+                            </li>
+                            <li>Creative, problem-solver, and keen attention to detail.</li>
+                        </ul>
+
+
+                    </div>
+
+      
+
+            <div class="container">
+                <div class="row">
+                <div class="col-6" style="display:flex">
+            <img id="photo-of-me" src="./img/portfolio-profile-pic.jpg" alt="profile photo" >
+            </div>
             </div>
         </div>
         </div>
 
-
-        <!-- skills -->
-        <div id="containerskills" class="card" style="margin-left: 30vh;">
+                     <!-- Skills Section-->
+        <div id="containerskills" class="card text-white offset-2">
             <!-- <div class=" bg-light"> -->
             <h3 class="mb-4 text-white display-6 text-center my-4 py-4">Skills
             </h3>
-            <div class="container block row">
-                <ul id="skills-list" class="text-black col-6" style="text-align: start;">
-                    <li class="px-4 text-warning">
+            <div class="row">
+                <ul id="skills-list" class="text-white col-6" style="text-align: start;">
+                    <li class="px-4 text-info">
                         <p><i id="skills-icons" class="fa-brands fa-html5 fa-2xl"></i></p>
                     </li>
-                    <li class="px-4 text-warning">
+                    <li class="px-4 text-info">
                         <p><i id="skills-icons" class="fa-brands fa-css3 fa-2xl"></i></p>
                     </li>
 
-                    <li class="px-4 text-warning">
+                    <li class="px-4 text-info">
                         <p><i id="skills-icons" class="fa-brands fa-square-github fa-2xl"></i></p>
                     </li>
 
 
-                    <li class="px-4 text-warning">
+                    <li class="px-4 text-info">
                         <p><i id="skills-icons" class="fa-brands fa-js fa-2xl"></i></p>
                     </li>
-                    <li></li>
+                   
                 </ul>
+                </div>
 
-                <div class="container col-6">
-                    <ul id="about-list" class="list">
+                <div>
+                    <ul id="about-list" class="list my-4">
                         <li>HTML5</li>
                         <li>CSS (Cascading Style Sheets)</li>
                         <li>Java Script</li>
@@ -95,107 +108,38 @@
 
                     </ul>
                 </div>
-            </div>
-        </div>
-        </div>
-
-
-
-        <!-- </div>
-        </div>
-
-        </div>
-
-
-        </div> -->
-
-
-
-
-
-
-
-
-
-
-        <!-- Contact
-        <section class="contact-section">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="mb-3 mb-md-0">
-                        <div class="card py-2 mt-2">
-                            <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0 text-white">Address</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="fw-bold text-white-50">Cincinnati, OH</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mb-3 mb-md-0">
-                        <div class="card py-2 mt-2">
-                            <div class="card-body text-center">
-                                <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0 text-white">Email</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="fw-bold text-white-50"><a href="#!">oliver.a.jarjosa@gmail.com</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mb-3 mb-md-0">
-                        <div class="card py-2 mt-2">
-                            <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0 text-white">Linkedin</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="fw-bold text-white-50"><a class=""
-                                        href="https://www.linkedin.com/in/oliver-jarjosa/">Linkedin</a> </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
                 </div>
             </div>
-        </section>-->
+        </div>
+        </div>
+
+
+       
+        
 
     </main>
-    <!-- Aside 
-    <aside class="page-sidebar">
-        Aside
-      </aside>-->
+  
+<!--FOOTER-->
+<footer>
+    <div class="container">
+                    
+                    <ul id="contactfooter" class="text-white text-center py-5">
+                        <li id="linkedin" class="text-white"> <a class="text-white"
+                        href="https://www.linkedin.com/in/oliver-jarjosa/"><i
+                            class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+                        </ul>
+               
+                </div>
+            </div>
+
+        </footer>
 
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-    <footer>
-        <!-- <h1>My footer</h1> -->
-    
-        <div id="my-socials" class="align-items-center py-4">
-    
-            <div class="container">
-                <h3>Contact</h3>
-                <p class="text-white">
-                <ul id="contactfooter" class="text-white">
-                    <li>email: oliverjarjosa@gmail.com</li>
-                    <li>Github: </li>
-                </ul>
-                </p>
-            </div>
-    
-    
-            <p id="linkedin" class="text-white"> <a class="text-white" href="https://www.linkedin.com/in/oliver-jarjosa/"><i
-                        class="fa-brands fa-linkedin fa-2xl"></i></a>
-            </p>
-        </div>
-    
-    </footer>
 </body>
-<br>
 
 
 

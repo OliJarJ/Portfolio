@@ -10828,7 +10828,7 @@ textarea.form-control-lg {
 /*BODY*/
 
 body {
-  background: url("../img/simone-hutsch-cMZO67R9M9c-unsplash.jpg") no-repeat center center fixed;
+  background: url("../img/sebastian-svenson-d2w-_1LJioQ-unsplash.jpg") no-repeat center center fixed;
   background-size: cover;
 align-content: center;
 justify-content: center;
@@ -10910,7 +10910,7 @@ ul {
 
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 10rem; /* Set the width of the sidebar */
+  /* width: 10rem; Set the width of the sidebar */
   position: fixed; /* (stay in place on scroll) */
   z-index: 1; /* Remain at top */
   top: 0; /* Stay at the top */
@@ -10984,23 +10984,25 @@ a.nav-link {
 #photo-of-me {
   margin-top: 0;
   padding-top: 0;
-  height: 400px;
-  margin-bottom: 10vh;
-  margin-top: 5vh;
-  margin-right: 30vh;
-  margin-left: 15vh;
+  height: 350px;
+  width: 350px;
+  margin-left: 20vh;
+  border: solid 25px;
+  border-radius: 360px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+ 
+  /* align-content: flex-end; */
 
-  border: solid white 25px;
 }
 
 #containerintro {
   margin-top: 25vh;
 }
 
-#containerskills {
+/* #containerskills {
   margin-left: 50vh;
   
-}
+} */
 
 body {
   min-height: 100vh;
@@ -11068,8 +11070,9 @@ div {
 #skills-list {
   list-style: none;
 display:flex;
-flex-direction: column;
+flex-direction: row;
 align-items: flex-end;
+margin-left: 2.5rem;
 }
 
 /*Portfolio Page Cards*/
@@ -11146,11 +11149,11 @@ button.btn {
   text-align: center;
 }
 
-/*Work card*/
+/*Work card section*/
 #workcards {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
   background: inherit; 
-  backdrop-filter: blur(30px); 
+  backdrop-filter: blur(65px); 
   margin-bottom: 15vh;
   padding-bottom: 10vh;
   margin-right: 8vh;
