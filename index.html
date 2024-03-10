@@ -21,107 +21,131 @@
 <body>
 
     <!--Navigation-->
-    <nav class=" navbar navbar-expand">
-        <div class="position-fixed top-0 start-0 bg-black h-100 col-2">
-            <ul id="nav-list">
-                <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="./Work.html">Work</a></li>
-                <li class="nav-item"><a class="nav-link" href="./education.html">Education</a></li>
-                <li class="nav-item"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
-            </ul>
-        </div>
-        </div>
-        <!-- <a class="navbar-brand d-flex fw-bold px-4" href="#">Oliver Jarjosa</a> -->
+
+    <nav id="sideNav" class="navbar navbar-nav navbar-expand-lg fixed-top">
+        <div class="position-fixed top-0 start-0 h-100">
+            <div class="justify-content-center">
+                <img class="img-profile img-fluid rounded-circle mx-2 avatar-img" src="./img/portfolio-profile-pic.jpg"
+                    alt="profile photo">
+                <div>
+                    <div>
+                        <ul id="nav-list">
+                            <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./Work.html">Work</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./education.html">Education</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <button class="navbar-toggler collapsed text-info" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-info"></span>
+            </button>
+            <!-- <a class="navbar-brand d-flex fw-bold px-4" href="#">Oliver Jarjosa</a> -->
     </nav>
     <br>
 
     <!-- Cards -->
+
     <main>
-     <!--Intro section-->
+        <!--Intro section-->
         <div class="container">
             <div class="row offset-2">
                 <div class="" style="">
-                    <div class="card  col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 py-5 px-4">
-                        <h3 class="display-6 text-white mt-4 px-4">Junior Web Developer</h3>
-                        <ul id="about-list" class=" text-white mx-4 my-4">
-                            <li>Strong foundation in HTML, CSS, & Java Script.</li>
+                    <div class="card col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 py-5 px-4">
+                        <h2 class="display-2"
+                            style="color: rgb(51, 0, 114); font-family: 'Copperplate'; font-weight: 800;">Oliver Jarjosa
+                        </h2>
+                        <h3 class="text-dark mt-4 px-4">Junior Web Developer</h3>
+                        <p class="text-dark"><b>In my career and educational experiences, I've accumulated experience
+                                with interpersonal relationships, art and design, and web development.</b></p>
 
-                            <li>On track to receive my Certification of Web Development from Kable
-                                Academy.</li>
-                            <li>Passion for learning and applying the skills acquired along the way.
+                        <ul id="about-list" class=" text-black mx-4 my-4 start-0">
+                            <li class="py-2">Profound understanding of HTML, CSS & Java Script.
                             </li>
-                            <li>Creative, problem-solver, and keen attention to detail.</li>
+
+                            <li class="py-2">Set to receive my <b>Certification of Web Development from Kable
+                                    Academy</b> on March 27th.</li>
+                            <li class="py-2"> Passed the CIW exam and received credentials of a <b>Certified Internet Web
+                                    Professional</b> in February 2024 (Credential ID: CIW00448330).</li>
+
+                            <li class="py-2">Passion for learning and applying the skills acquired along the way.
+                            </li>
+                            <li class="py-2">Creative, problem-solver, and keen attention to detail.</li>
                         </ul>
-
-
+                        <hr class="text-white">
+                        <div class="text-center">
+                            <ul id="contactfooter" class="justify-content-center py-2">
+                                <li id="linkedin" class="text-primary"> <a class="text-primary"
+                                        href="https://www.linkedin.com/in/oliver-jarjosa/"><i
+                                            class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
 
-      
-
-            <div class="container">
-                <div class="row">
-                <div class="col-6" style="display:flex">
-            <img id="photo-of-me" src="./img/portfolio-profile-pic.jpg" alt="profile photo" >
-            </div>
-            </div>
-        </div>
-        </div>
-
-                     <!-- Skills Section-->
-        <div id="containerskills" class="card text-white offset-2">
-            <!-- <div class=" bg-light"> -->
-            <h3 class="mb-4 text-white display-6 text-center my-4 py-4">Skills
-            </h3>
-            <div class="row">
-                <ul id="skills-list" class="text-white col-6" style="text-align: start;">
-                    <li class="px-4 text-info">
-                        <p><i id="skills-icons" class="fa-brands fa-html5 fa-2xl"></i></p>
-                    </li>
-                    <li class="px-4 text-info">
-                        <p><i id="skills-icons" class="fa-brands fa-css3 fa-2xl"></i></p>
-                    </li>
-
-                    <li class="px-4 text-info">
-                        <p><i id="skills-icons" class="fa-brands fa-square-github fa-2xl"></i></p>
-                    </li>
 
 
-                    <li class="px-4 text-info">
-                        <p><i id="skills-icons" class="fa-brands fa-js fa-2xl"></i></p>
-                    </li>
-                   
-                </ul>
+
                 </div>
 
-                <div>
-                    <ul id="about-list" class="list my-4">
-                        <li>HTML5</li>
-                        <li>CSS (Cascading Style Sheets)</li>
-                        <li>Java Script</li>
-                        <li>Github</li>
-                        <li>User Interface (UI)</li>
-                        <li>Interpersonal Relationships</li>
-                        <li>Time management</li>
-                        <li>Focus on Web Accessability</li>
-                        <li>Communication</li>
+                <!-- Skills Section-->
+                <div id="containerskills" class="card text-white offset-2">
+                    <!-- <div class=" bg-light"> -->
+                    <h3 class="mb-4 text-dark display-6 text-center my-4 py-4">Skills
+                    </h3>
+                    <div class="row">
+                        <ul id="skills-list" class="text-white col-6" style="text-align: start;">
+                            <li class="px-4 text-primary">
+                                <p><i id="skills-icons" class="fa-brands fa-html5 fa-2xl"></i></p>
+                            </li>
+                            <li class="px-4 text-primary">
+                                <p><i id="skills-icons" class="fa-brands fa-css3 fa-2xl"></i></p>
+                            </li>
 
-                    </ul>
-                </div>
-                </div>
+                            <li class="px-4 text-primary">
+                                <p><i id="skills-icons" class="fa-brands fa-square-github fa-2xl"></i></p>
+                            </li>
+
+
+                            <li class="px-4 text-primary">
+                                <p><i id="skills-icons" class="fa-brands fa-js fa-2xl"></i></p>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul id="about-list" class="list my-4 text-black">
+                            <li class="py-2">HTML5</li>
+                            <li class="py-2">CSS (Cascading Style Sheets)</li>
+                            <li class="py-2">Java Script</li>
+                            <li class="py-2">Github</li>
+                            <li class="py-2">User Interface (UI)</li>
+                            <li class="py-2">Interpersonal Relationships</li>
+                            <li class="py-2">Time management</li>
+                            <li class="py-2">Focus on Web Accessability</li>
+                            <li class="py-2">Communication</li>
+
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
         </div>
+        </div>
 
 
-       
-        
+
+
 
     </main>
-  
-<!--FOOTER-->
-<footer>
+
+    <!--FOOTER-->
+    <!-- <footer>
     <div class="container">
                     
                     <ul id="contactfooter" class="text-white text-center py-5">
@@ -133,7 +157,7 @@
                 </div>
             </div>
 
-        </footer>
+        </footer> -->
 
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
