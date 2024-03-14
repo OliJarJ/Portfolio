@@ -16,39 +16,56 @@
 </head>
 
 <body>
-    <!--Navigation-->
-    <nav class="sidenav navbar navbar-expand">
-        <div class="sidenav">
-            <ul id="nav-list">
-                <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="./Work.html">Work</a></li>
-                <li class="nav-item"><a class="nav-link" href="./education.html">Education</a></li>
-                <li class="nav-item"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
-            </ul>
+           <!-- Navigation -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container">
+            <!-- Toggler/collapsible Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Logo or Brand -->
+            <a class="navbar-brand ms-lg-0" href="#">Oliver Jarjosa</a>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./education.html">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Work.html">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        </div>
-        <!-- <a class="navbar-brand d-flex fw-bold px-4" href="#">Oliver Jarjosa</a> -->
     </nav>
-
     <!--Contact-->
 
-    <div class="container">
+    <div class="container-fluid">
         <!-- forms -->
-        <div id="Contact" class="cardp col-10 bg-black">
+        <div id="Contact" class="cardp col-8 offset-2">
             <div class="column">
             
                 <!-- <h3 class="text-center display-4 text-white">Contact</h3> -->
                 <p class="text-center text-white py-2 display-6 fw-bold"><em>Leave me a message!</em></p>
 
 
-                <div id="contactDetails" class="row">
+                <!-- <div id="contactDetails" class="row">
                     <p class="text-white fw-bold"><i class="fa-solid fa-house-chimney fa-lg"></i> Cincinnati,
                         Ohio,
                         US</p>
                     <p class="text-white mx-2 fw-bold"><i class="fa-solid fa-envelope fa-lg"></i>
                         oliverjarjosa@gmail.com
-                    </p>
+                    </p> -->
 
 
                     <!--forms-->
@@ -69,7 +86,7 @@
 
                         <div>
                             <div class="col-md-12 form-group my-5 py-2">
-                                <button class="btn rounded-pill bg-warning" type="submit">Send</button>
+                                <button class="portfolio-button" type="submit">Send</button>
                             </div>
                         </div>
                         <div class="row">
@@ -87,67 +104,49 @@
         </div>
 
 
-        <!--alt contact-->
+        <!--SOCIALS-->
         
-        <section class="contact-section">
-            <div class="container-fluid px-4 px-lg-5" style="margin-bottom: 15vh;">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="mb-3 mb-md-0">
-                    <!--Card 1-->
-                        <div class="card py-2 mt-2 bg-black">
-                            <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0 text-white">Location</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="fw-bold text-info">Baltimore, MD, USA</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mb-3 mb-md-0">
-                        <div class="card py-2 mt-2 bg-black">
-                            <div class="card-body text-center">
-                                <i class="fas fa-envelope mb-2 text-primary"></i>
-                                <h4 class="text-uppercase m-0 text-white">Email</h4>
-                                <hr class="my-4 mx-auto" />
-                                <p class="fw-bold text-info">oliverjarjosa@gmail.com</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mb-3 mb-md-0">
-                        <div class="card py-2 mt-2 bg-black">
-                            <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0 text-white">Linkedin</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="fw-bold text-white-50"><a class="text-info"
-                                        href="https://www.linkedin.com/in/oliver-jarjosa/">Linkedin</a> </div>
-                            </div>
+        <section id="contacts-3" class="container-fluid justify-content-center contacts-3">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card socials-card py-2 mt-2">
+                        <div class="card-body text-center">
+                            <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0 text-white">Location</h4>
+                            <hr class="my-4 mx-auto" />
+                            <div class="fw-bold text-info">Baltimore, MD, USA</div>
                         </div>
                     </div>
                 </div>
-            
+                <div class="col-lg-4">
+                    <div class="card socials-card py-2 mt-2">
+                        <div class="card-body text-center">
+                            <i class="fas fa-envelope mb-2 text-primary"></i>
+                            <h4 class="text-uppercase m-0 text-white">Email</h4>
+                            <hr class="my-4 mx-auto" />
+                            <p class="fw-bold text-info">oliverjarjosa@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card socials-card py-2 mt-2">
+                        <div class="card-body text-center">
+                            <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0 text-white">Linkedin</h4>
+                            <hr class="my-4 mx-auto" />
+                            <div class="fw-bold text-white-50"><a class="text-info"
+                                href="https://www.linkedin.com/in/oliver-jarjosa/">Linkedin</a></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-        </div>
-        
-
     
-        <footer class="footer">
-            <!-- <h1>My footer</h1> -->
+        <footer class="footer container-fluid bg-black">
 
             <div id="my-socials" class="align-items-center py-4">
-
-                <div class="container">
-                    <h3 class="text-info">Contact</h3>
-                  
-                    <ul id="contactfooter" class="text-white">
-                        <li>email: oliverjarjosa@gmail.com</li>
-                    </ul>
-                   
-                </div>
-
-
-                <p id="linkedin" class="text-white"> <a class="text-white"
+                <div class="container"></div>
+                <p id="linkedin" class="text-white"> <a class="text-info"
                         href="https://www.linkedin.com/in/oliver-jarjosa/"><i
                             class="fa-brands fa-linkedin fa-2xl"></i></a>
                 </p>
