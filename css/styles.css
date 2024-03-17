@@ -11286,3 +11286,62 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 2px 4px; 
   backdrop-filter: blur(25px); 
 }
+
+/*Profile Photo Edited*/
+#profile-photo {
+  background: #e981fe;
+  height: 100%;
+  box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.5) inset;
+  width: 300px;
+  height: 400px;
+
+}
+
+/* .img-profile {
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate (-50%, -50%) scale(0.5);
+  border: 4px solid #fff;
+}
+
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 350px;
+  height: 400px;
+  background: #d4d7dd;
+  border: 55px solid #fff;
+  box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.5) inset, 0 18px 50px 10px rgba(0, 0, 0, 0.3);
+  padding: 16px;
+  border-radius: 12px; */
+
+/* } */
+
+/*End Profile Photo*/
+
+.display-2 {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(95deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 10s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
