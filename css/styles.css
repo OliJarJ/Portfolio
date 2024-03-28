@@ -10828,10 +10828,10 @@ textarea.form-control-lg {
 /* BODY */
 
 body {
-  background: url("../img/clu-soh-oga9Xg0KVnU-unsplash.jpg") no-repeat center center fixed;
-  background-size: cover;
+  background:url("../img/blackcubes.jpg") no-repeat center center fixed;
+   background-size:auto;
 align-content: center;
-justify-content: center;
+justify-content: center; 
 
 }
 /*Projects*/
@@ -11349,4 +11349,21 @@ h1, h2, h3, h4, h5, h6 {
   background-color:rgba(0, 0, 0, 0.3);
   box-shadow: 0 2px 4px; 
   backdrop-filter: blur(25px); 
+}
+
+/*Landing page cards*/
+#skillscard {
+  border: none; /* Remove border */
+  border-radius: 10px; /* Add border radius */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  transition: transform 0.3s ease; /* Add smooth transition */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  background: inherit; 
+  backdrop-filter: blur(10px); 
+  width: 320px;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
 }

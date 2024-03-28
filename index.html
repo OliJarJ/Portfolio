@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -17,184 +18,157 @@
     <link href="css/styles.css" rel="stylesheet" />
     <title>Landing Page</title>
 
+    <style>
+        .card-container {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
 </head>
 
 <body>
 
-    <!--Navigation-->
-<!-- 
-    <nav class="sideNav navbar navbar-expand-lg">
-        <div class="position-fixed top-0 start-0 h-100">
-            <div class="justify-content-center">
-                <img class="img-profile img-fluid rounded-circle mx-2 avatar-img" src="./img/portfolio-profile-pic.jpg"
-                    alt="profile photo">
-          
-                    <div>
-                        <!-- toggler -->
-                        <!-- <button class="navbar-toggler my-5 mx-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon text-info"></span>
-                </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul id="nav-list">
-                            <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="./Work.html">Work</a></li>
-                            <li class="nav-item"><a class="nav-link" href="./education.html">Education</a></li>
-                            <li class="nav-item"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
-                            <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div> -->
- 
-
-       
-            <!-- <a class="navbar-brand d-flex fw-bold px-4" href="#">Oliver Jarjosa</a> -->
-    <!-- </nav> -->
-    
-    
-         <!-- Navigation -->
-         <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-            <div class="container">
-                <!-- Toggler/collapsible Button -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
-                </button>
-                <!-- Logo or Brand -->
-                <a class="navbar-brand ms-auto" href="#">Oliver Jarjosa</a>
-                <!-- Navbar links -->
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./education.html">Education</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./Work.html">Work</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container">
+            <!-- Toggler/collapsible Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
+            </button>
+            <!-- Logo or Brand -->
+            <a class="navbar-brand ms-auto" href="#">Oliver Jarjosa</a>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./education.html">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Work.html">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    
+        </div>
+    </nav>
+
     <br>
 
     <!-- Cards -->
 
     <main>
         <!--Intro section-->
-        <div class="container fluid">
-            <div class="row offset-2">
-                <div>
-                    <div class="card col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 py-5 px-4">
-                        <h2 class="display-2"
-                            style="color: HSLA(180, 100%, 10%, 1); font-family: 'Copperplate'; font-weight: 600;">Oliver Jarjosa
-                        </h2>
-                        <h3 class="text-light mt-4 px-4 my-4">Junior Web Developer</h3>
-                        <div class="frame">
-                            <img class="img-profile img-fluid" id="profile-photo" src="./img/20240204_163032.jpg" alt="Profile photo of Oliver Jarjosa">
-                           </div>
-                        
-                        <p class="text-info my-4" style="font-size:small;"><b>Throughout my career journey and educational pursuits, I've cultivated a variety of skills encompassing interpersonal dynamics, adhering to deadlines, and honing my craft in web development. My history in art and design has transformed into a passion for the ever expanding field of technology.</b></p>
-
-                        <ul id="about-list" class=" text-white mx-4 my-4 start-0">
-                            <li class="py-2">Profound understanding of HTML, CSS & Java Script.
-                            </li>
-
-                            <li class="py-2">Set to receive my <b>Certification of Web Development from Kable
-                                    Academy</b> on March 27th.</li>
-                            <li class="py-2"> Passed the CIW exam and received credentials of a <b>Certified Internet Web
-                                    Professional</b> in February 2024 (Credential ID: CIW00448330).</li>
-
-                            <li class="py-2">Passion for learning and applying the skills acquired along the way.
-                            </li>
-                            <li class="py-2">Creative, problem-solver, and keen attention to detail.</li>
-                        </ul>
-                
-                       
+        <div class="container-fluid">
+            <h2 class="display-2 text-center"
+                style="color: HSLA(180, 100%, 10%, 1); font-family: 'Copperplate'; font-weight: 600; margin-top: 20vh">Oliver
+                Jarjosa
+            </h2>
+            <h3 class="text-light mt-4 px-4 my-4 text-center">Junior Web Developer</h3>
+            <div class="row justify-content-center">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 py-5 px-4">
+                    <div class="card d-flex">
+                        <p class="text-white my-4 py-4 my-4 px-4" style="font-size:medium;"><b>
+                            Over the course of my career and academic endeavors, I've developed a comprehensive skill
+                            set that spans interpersonal communication, effective time management, and proficiency in web
+                            development. Originating from a background in art and design, my journey has led me to a
+                            profound appreciation for the continuously evolving realm of technology.</b></p>
                     </div>
-
-
-
-                    </div>
-              
-
+                    <!-- <div class="container-fluid d-flex justify-content-center">
+                    <img class="img-profile img-fluid " id="profile-photo" src="./img/pascal-meier-162MgumxoVI-unsplash.jpg"
+                        alt="Profile photo of Oliver Jarjosa">
+                    </div> -->
+                    <ul id="about-list" class=" text-white mx-4 my-4">
+                        <li class="py-2">Profound understanding of HTML, CSS & Java Script.
+                        </li>
+                        <li class="py-2">Set to receive my <b>Certification of Web Development from Kable
+                                Academy</b> on
+                            March 27th.</li>
+                        <li class="py-2"> Passed the CIW exam and received credentials of a <b>Certified Internet Web
+                                Professional</b> in February 2024 (Credential ID: CIW00448330).</li>
+                        <li class="py-2">Passion for learning and applying the skills acquired along the way.
+                        </li>
+                        <li class="py-2">Creative, problem-solver, and keen attention to detail.</li>
+                    </ul>
+                </div>
+<br>
                 <!-- Skills Section-->
-                <div id="containerskills" class="card text-white offset-2">
-                    <!-- <div class=" bg-light"> -->
-                    <h3 class="mb-4 text-light display-6 text-center my-4 py-4">Skills
-                    </h3>
-                    <div class="row">
-                        <ul id="skills-list" class="text-white col-6" style="text-align: start;">
-                            <li class="px-4 text-info">
-                                <p><i id="skills-icons" class="fa-brands fa-html5 fa-2xl"></i></p>
-                            </li>
-                            <li class="px-4 text-info">
-                                <p><i id="skills-icons" class="fa-brands fa-css3 fa-2xl"></i></p>
-                            </li>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 py-5 px-4">
+                    <div class="card text-white">
+                        <h3 class="mb-4 text-light display-6 text-center my-4 py-4">Skills
+                        </h3>
+                        <div class="row">
+                            <ul id="skills-list" class="text-white col-6" style="text-align: start;">
+                                <li class="px-4 text-info">
+                                    <p><i id="skills-icons" class="fa-brands fa-html5 fa-2xl"></i></p>
+                                </li>
+                                <li class="px-4 text-info">
+                                    <p><i id="skills-icons" class="fa-brands fa-css3 fa-2xl"></i></p>
+                                </li>
 
-                            <li class="px-4 text-info">
-                                <p><i id="skills-icons" class="fa-brands fa-square-github fa-2xl"></i></p>
-                            </li>
+                                <li class="px-4 text-info">
+                                    <p><i id="skills-icons" class="fa-brands fa-square-github fa-2xl"></i></p>
+                                </li>
 
 
-                            <li class="px-4 text-info">
-                                <p><i id="skills-icons" class="fa-brands fa-js fa-2xl"></i></p>
-                            </li>
+                                <li class="px-4 text-info">
+                                    <p><i id="skills-icons" class="fa-brands fa-js fa-2xl"></i></p>
+                                </li>
+                            </ul>
+                        </div>
 
-                        </ul>
-                    </div>
-
-                    <div>
-                        <ul id="about-list" class="list my-4 text-white">
-                            <li class="py-2">HTML5</li>
-                            <li class="py-2">CSS (Cascading Style Sheets)</li>
-                            <li class="py-2">Java Script</li>
-                            <li class="py-2">Github</li>
-                            <li class="py-2">User Interface (UI)</li>
-                            <li class="py-2">Interpersonal Relationships</li>
-                            <li class="py-2">Time management</li>
-                            <li class="py-2">Focus on Web Accessability</li>
-                            <li class="py-2">Effective Communication</li>
-
-                        </ul>
+                        <div>
+                            <ul id="about-list" class="list my-4 text-white">
+                                <li class="py-2">HTML5</li>
+                                <li class="py-2">CSS (Cascading Style Sheets)</li>
+                                <li class="py-2">Bootstrap</li>
+                                <li class="py-2">MERN Stack (Mongoose, Express, React & Node)</li>
+                                <li class="py-2">Java Script</li>
+                                <li class="py-2">Github</li>
+                                <li class="py-2">MongoDB</li>
+                                <li class="py-2">Postman</li>
+                                <li class="py-2">User Interface (UI)</li>
+                                <li class="py-2">Web Design</li>
+                                <li class="py-2">Interpersonal Relationships</li>
+                                <li class="py-2">Time management</li>
+                                <li class="py-2">Web Accessibility</li>
+                                <li class="py-2">Effective Communication</li>
+                                <li class="py-2">Problem Solver</li>
+                                <li class="py-2">Goal-oriented</li>
+                                <li class="py-2">Keen Eye for Detail</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
-        </div>
-
-
-
-
-
     </main>
-<!--FOOTER-->
+    <!--FOOTER-->
     <footer class="footer container-fluid bg-black">
-
         <div id="my-socials" class="align-items-center py-4">
             <div class="container"></div>
             <p id="linkedin" class="text-white"> <a class="text-info"
-                    href="https://www.linkedin.com/in/oliver-jarjosa/"><i
-                        class="fa-brands fa-linkedin fa-2xl"></i></a>
+                    href="https://www.linkedin.com/in/oliver-jarjosa/"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
             </p>
         </div>
-
     </footer>
-   
-
     <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
 </body>
+
+</html>
