@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -13,6 +15,7 @@
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
     <title>Portfolio</title>
 
     <!-- Core theme CSS (includes Bootstrap)-->
@@ -36,6 +39,15 @@
         .portfolio-button:hover {
             background-color: #fff;
             color: #000;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('./img/woodlights.jpg');
+            /* Replace 'your-background-image-url.jpg' with the actual URL of your background image */
+            background-size: cover;
+            background-repeat: no-repeat;
         }
     </style>
 </head>
@@ -74,191 +86,204 @@
             </div>
         </div>
     </nav>
-
+    <!--end Nav-->
 
     <main>
         <!-- Container (Main Portfolio Section) -->
-        <div id="Portfolio" class="container-fluid">
-            <!-- Project 1 -->
+        <div id="Portfolio" class="container-fluid" style="margin-top: 10vh">
+
             <!-- Row 1 -->
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                    <div class="card">
-                        <img class="card-img" src="./img/madlibs updated version.png"
-                            alt="A preview of our Mad Libs project.">
-                        <div class="card-content justify-content-center bg-black">
-                            <h2 class="text-info">Mad Libs Intro</h2>
-                            <!-- Paragraph -->
-                            <div class="mx-5">
-                                <p class="text-white mx-3 my-3 px-2 py-2">We created
-                                    a "fill-in-the-blank" template to
-                                    accept a variety of words that, when submitted, would complete a Mad Libs story.
-                                    The
-                                    languages used in this
-                                    project are:</p>
-                                <ul class="text-white" style="list-style: none;">
-                                    <li><i class="fa-brands fa-html5 mx-2 text-warning"></i>HTML5</li>
-                                    <li><i class="fa-brands fa-css3-alt mx-2 text-warning"></i>CSS</li>
-                                    <li><i class="fa-brands fa-bootstrap mx-2 text-warning"></i>Bootstrap</li>
-                                    <li><i class="fa-brands fa-js mx-2 text-warning"></i>JavaScript</li>
-                                </ul>
-                                <!-- Button -->
-                            </div>
-                        </div>
-                        <div class="container">
-                            <div class="my-2 justify-content-center">
-                                <a href="https://olijarj.github.io/Madlibs/"><button
-                                        class="portfolio-button" type="button">See More</button></a>
+            <div class="row justify-content-center">
+                  <!-- Project 1 -->
+                  <div class="col-12 col-lg-4">
+                    <div class="card my-4">
+                        <!-- Card image -->
+                        <img class="card-img" src="./img/aboutmeproject.png" alt="About Me Preview">
+                        <!-- Card content -->
+                        <div class="card-content bg-black text-white">
+                            <h2 class="text-info">About Me</h2>
+                            <p class="mx-5 my-3">This project was an introduction to my colleagues at Kable Academy. The languages used in this project are:</p>
+                            <ul class="mx-5 mb-3" style="list-style: none;">
+                                <li><i class="fab fa-html5 mx-2 text-warning"></i>HTML5</li>
+                                <li><i class="fab fa-css3-alt mx-2 text-warning"></i>CSS</li>
+                                <li><i class="fab fa-bootstrap mx-2 text-warning"></i>Bootstrap</li>
+                            </ul>
+                            <div class="text-center py-4">
+                                <a href="https://olijarj.github.io/About-Me-Pages/" class="portfolio-button">See More</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Project 2 -->
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                    <div class="card">
-                        <img class="card-img" src="./img/product-landing-project.png"
-                            alt="A preview of our Product Landing Page project.">
-                        <div class="card-content justify-content-center bg-black">
+                <div class="col-12 col-lg-4">
+                    <div class="card my-4">
+                        <!-- Card image -->
+                        <img class="card-img" src="./img/lensahome.png" alt="Product Landing Page Preview">
+                        <!-- Card content -->
+                        <div class="card-content bg-black text-white">
                             <h2 class="text-info">Product Landing Page</h2>
-                            <!-- Paragraph -->
-                            <div class="mx-5">
-                                <p class="text-white mx-3 my-3 px-2 py-2">We created
-                                    a "fill-in-the-blank" template to
-                                    accept a variety of words that, when submitted, would complete a Mad Libs story.
-                                    The
-                                    languages used in this
-                                    project are:</p>
-                                <ul class="text-white" style="list-style: none;">
-                                    <li><i class="fa-brands fa-html5 mx-2 text-warning"></i>HTML5</li>
-                                    <li><i class="fa-brands fa-css3-alt mx-2 text-warning"></i>CSS</li>
-                                    <li><i class="fa-brands fa-bootstrap mx-2 text-warning"></i>Bootstrap</li>
-                                    <li><i class="fa-brands fa-js mx-2 text-warning"></i>JavaScript</li>
-                                </ul>
-                                <!-- Button -->
-                            </div>
-                        </div>
-                        <div class="container">
-                            <div class="my-2 justify-content-center">
-                                <a href="https://olijarj.github.io/Madlibs/"><button class="portfolio-button"
-                                        type="button">See More</button></a>
+                            <p class="mx-5 my-3">In this project, I strove for a modern, professional presentation. The languages used in this project are:</p>
+                            <ul class="mx-5 mb-3" style="list-style: none;">
+                                <li><i class="fab fa-html5 mx-2 text-warning"></i>HTML5</li>
+                                <li><i class="fab fa-css3-alt mx-2 text-warning"></i>CSS</li>
+                                <li><i class="fab fa-bootstrap mx-2 text-warning"></i>Bootstrap</li>
+                                <li><i class="fab fa-js mx-2 text-warning"></i>JavaScript</li>
+                            </ul>
+                            <div class="text-center py-4">
+                                <a href="https://olijarj.github.io/Product-Landing-Page/" class="portfolio-button">See More</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Project 3 -->
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                    <div class="card">
-                        <img class="card-img" src="./img/Retro-Drumb-Kit.png"
-                        alt="A preview of our Drum Kit project.">
-                        <div class="card-content justify-content-center bg-black">
-                        <h2 class="text-info">Drum Kit</h2>
-                        <!-- Paragraph -->
-                        <div class="mx-5">
-                        <p class="text-white mx-3 my-3 px-2 py-2">We created
-                        a "fill-in-the-blank" template to
-                        accept a variety of words that, when submitted, would complete a Mad Libs story.
-                        The
-                        languages used in this
-                        project are:</p>
-                        <ul class="text-white" style="list-style: none;">
-                        <li><i class="fa-brands fa-html5 mx-2 text-warning"></i>HTML5</li>
-                        <li><i class="fa-brands fa-css3-alt mx-2 text-warning"></i>CSS</li>
-                        <li><i class="fa-brands fa-bootstrap mx-2 text-warning"></i>Bootstrap</li>
-                        <li><i class="fa-brands fa-js mx-2 text-warning"></i>JavaScript</li>
-                        </ul>
-                        <!-- Button -->
-                        </div>
-                        </div>
-                        <div class="container">
-                        <div class="my-2 justify-content-center">
-                        <a href="https://olijarj.github.io/Madlibs/"><button
-                                                             class="portfolio-button" type="button">See More</button></a>
-                        </div>
-                        </div>
-                        </div>
-                        </div>
-                        </div>
-                        <!-- Row 2 -->
-                        <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                        <div class="card">
-                        <img class="card-img" src="./img/Screenshot 2024-03-06 091358.png"
-                                                 alt="A preview of our Pet Store project.">
-                        <div class="card-content justify-content-center bg-black">
-                        <h2 class="text-info">Pet Store Project</h2>
-                        <!-- Paragraph -->
-                        <div class="mx-5">
-                        <p class="text-white mx-3 my-3 px-2 py-2">We created
-                        a "fill-in-the-blank" template to
-                        accept a variety of words that, when submitted, would complete a Mad Libs story.
-                        The
-                        languages used in this
-                        project are:</p>
-                        <ul class="text-white" style="list-style: none;">
-                        <li><i class="fa-brands fa-html5 mx-2 text-warning"></i>HTML5</li>
-                        <li><i class="fa-brands fa-css3-alt mx-2 text-warning"></i>CSS</li>
-                        <li><i class="fa-brands fa-bootstrap mx-2 text-warning"></i>Bootstrap</li>
-                        <li><i class="fa-brands fa-js mx-2 text-warning"></i>JavaScript</li>
-                        </ul>
-                        <!-- Button -->
-                        </div>
-                        </div>
-                        <div class="container">
-                        <div class="my-2 justify-content-center">
-                        <a href="https://olijarj.github.io/Madlibs/"><button class="portfolio-button"
-                                                             type="button">See More</button></a>
-                        </div>
-                        </div>
-                        </div>
-                        </div>
-                        <!-- Project 4 -->
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                        <div class="card">
-                        <img class="card-img" src="./img/madlibs updated version.png"
-                                                 alt="A preview of our Fun Facts project.">
-                        <div class="card-content justify-content-center bg-black">
-                        <h2 class="text-info">React Fun Facts</h2>
-                        <!-- Paragraph -->
-                        <div class="mx-5">
-                        <p class="text-white mx-3 my-3 px-2 py-2">We created
-                        a "fill-in-the-blank" template to
-                        accept a variety of words that, when submitted, would complete a Mad Libs story.
-                        The
-                        languages used in this
-                        project are:</p>
-                        <ul class="text-white" style="list-style: none;">
-                        <li><i class="fa-brands fa-html5 mx-2 text-warning"></i>HTML5</li>
-                        <li><i class="fa-brands fa-css3-alt mx-2 text-warning"></i>CSS</li>
-                        <li><i class="fa-brands fa-bootstrap mx-2 text-warning"></i>Bootstrap</li>
-                        <li><i class="fa-brands fa-js mx-2 text-warning"></i>JavaScript</li>
-                        </ul>
-                        <!-- Button -->
-                        </div>
-                        </div>
-                        <div class="container">
-                            <div class="my-2 justify-content-center">
-                                <a href="https://olijarj.github.io/Madlibs/"><button class="portfolio-button" type="button">See More</button></a>
+              
+            </div>
+        </div>
+            <!-- Row 2 -->
+            <div class="row justify-content-center">
+                <!-- Project 1 -->
+                <div class="col-12 col-lg-4">
+                    <div class="card my-4">
+                        <!-- Card image -->
+                        <img class="card-img" src="./img/Retro-Drumb-Kit.png" alt="Drum Kit project Preview">
+                        <!-- Card content -->
+                        <div class="card-content bg-black text-white">
+                            <h2 class="text-info">Drum Kit</h2>
+                            <p class="mx-5 my-3">Continuing to utilize JavaScript, I connected buttons, sounds, and visuals to create this page. The languages used in this project are:</p>
+                            <ul class="mx-5 mb-3" style="list-style: none;">
+                                <li><i class="fab fa-html5 mx-2 text-warning"></i>HTML5</li>
+                                <li><i class="fab fa-css3-alt mx-2 text-warning"></i>CSS</li>
+                                <li><i class="fab fa-bootstrap mx-2 text-warning"></i>Bootstrap</li>
+                                <li><i class="fab fa-js mx-2 text-warning"></i>JavaScript</li>
+                            </ul>
+                            <div class="text-center py-4">
+                                <a href="https://olijarj.github.io/javaScriptDrumKit/" class="portfolio-button">See More</a>
                             </div>
                         </div>
-                        </div>
-                        </div>
-                        </div>
-                        </div>
-                        </main>
-                        
-                        <!-- FOOTER -->
-                        <footer class="footer container-fluid bg-black">
-                            <div id="my-socials" class="align-items-center py-4">
-                                <div class="container"></div>
-                                <p id="linkedin" class="text-white"> <a class="text-info" href="https://www.linkedin.com/in/oliver-jarjosa/"><i class="fa-brands fa-linkedin fa-2xl"></i></a></p>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-12 col-lg-4">
+                    <div class="card my-4">
+                        <!-- Card image -->
+                        <img class="card-img" src="./img/counter-app-img.png" alt="Counter App project preview.">
+                        <!-- Card content -->
+                        <div class="card-content bg-black text-white">
+                            <h2 class="text-info">React Counter</h2>
+                            <p class="mx-5 my-3">This project was an exercise with React.js. The aim was to finish with a counter that displayed the current count state. The languages used in this project are:</p>
+                            <ul class="mx-5 mb-3" style="list-style: none;">
+                                <li><i class="fab fa-html5 mx-2 text-warning"></i>HTML5</li>
+                                <li><i class="fab fa-css3-alt mx-2 text-warning"></i>CSS</li>
+                                <li><i class="fab fa-bootstrap mx-2 text-warning"></i>Bootstrap</li>
+                            </ul>
+                            <div class="text-center py-4">
+                                <a href="git@github.com:OliJarJ/counter-app.git" class="portfolio-button">Github</a>
                             </div>
-                        </footer>
-                        
-                        <!-- Bootstrap core JS -->
-                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-                        <!-- Core theme JS -->
-                        <script src="js/scripts.js"></script>
-                        
-                        </body>
-                        
-                        </html>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- Row 3 -->
+            <div class="row justify-content-center">
+                <!-- Project 1 -->
+                <div class="col-12 col-lg-4">
+                    <div class="card my-4">
+                        <!-- Card image -->
+                        <img class="card-img" src="./img/funfacts.png" alt="Fun Facts Preview">
+                        <!-- Card content -->
+                        <div class="card-content bg-black text-white">
+                            <h2 class="text-info">React Fun Facts</h2>
+                            <p class="mx-5 my-3">First full React.js project. The languages used in this project are:</p>
+                            <ul class="mx-5 mb-3 wrap" style="list-style: none;">
+                                <li><i class="fab fa-html5 mx-2 text-warning"></i>HTML5</li>
+                                <li><i class="fab fa-css3-alt mx-2 text-warning"></i>CSS</li>
+                                <li><i class="fab fa-bootstrap mx-2 text-warning"></i>Bootstrap</li>
+                                <li><i class="fab fa-js mx-2 text-warning"></i>JavaScript</li>
+                               
+                            </ul>
+                            <div class="text-center py-4">
+                                <a href="#" class="portfolio-button">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-12 col-lg-4">
+                    <div class="card my-4">
+                        <!-- Card image -->
+                        <img class="card-img" src="./img/petstore project.png" alt="Pet store project preview.">
+                        <!-- Card content -->
+                        <div class="card-content bg-black text-white">
+                            <h2 class="text-info">Pet Store</h2>
+                            <p class="mx-5 my-3">This project's focus was combining what I had learned and focused primarily on the layout. My aim for the pages was to make a dynamic, legible, and easily navigable environment. The languages used in this project are:</p>
+                            <ul class="mx-5 mb-3 my-4" style="list-style: none;">
+                              
+                                <li><i class="fab fa-html5 mx-2 text-warning"></i>HTML5</li>
+                                <li><i class="fab fa-css3-alt mx-2 text-warning"></i>CSS</li>
+                                <li><i class="fab fa-bootstrap mx-2 text-warning"></i>Bootstrap</li>
+                                <li><i class="fab fa-js mx-2 text-warning"></i>JavaScript</li>
+                                
+                            </ul>
+                            <div class="text-center py-4">
+                                <a href="" class="portfolio-button">See More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                  <!-- Row 4 -->
+            <div class="row justify-content-center">
+                <!-- Project 1 -->
+                <div class="col-12 col-lg-4">
+                    <div class="card my-4">
+                        <!-- Card image -->
+                        <img class="card-img" src="./img/MERNproject.png" alt="Capstone Preview">
+                        <!-- Card content -->
+                        <div class="card-content bg-black text-white">
+                            <h2 class="text-info">Capstone: MERN Stack Project</h2>
+                            <p class="mx-5 my-3">This was my Kable Academy capstone project that I presented along with my colleague. The project focused on MERN stack to develop a functional, visually appealing, and responsive website.</p>
+                            
+                            <p class="mx-5 my-3">The objective was to connect the backend models, routes, and controllers, and connect the contact page to a database. The project was deployed via Adaptable.io and presented on March 27th.</p>
+                            
+                            <p>The languages used in this project are:</p>
+                            <ul class="mx-5 mb-3" style="list-style: none;">
+                                <li><i class="fab fa-html5 mx-2 text-warning"></i>HTML5</li>
+                                <li><i class="fab fa-css3-alt mx-2 text-warning"></i>CSS</li>
+                                <li><i class="fab fa-bootstrap mx-2 text-warning"></i>Bootstrap</li>
+                                <li><i class="fab fa-js mx-2 text-warning"></i>JavaScript</li>
+                            </ul>
+                            <div class="text-center py-4">
+                                <a href="git@github.com:OliJarJ/working-backend.git" class="portfolio-button">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer container-fluid bg-black">
+        <div id="my-socials" class="align-items-center py-4">
+            <div class="container"></div>
+            <p id="linkedin" class="text-white"> <a class="text-info"
+                    href="https://www.linkedin.com/in/oliver-jarjosa/"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>

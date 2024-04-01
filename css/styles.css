@@ -479,7 +479,7 @@ summary {
 }
 
 progress {
-  vertical-align: baseline;
+  vertical-align: center;
 }
 
 [hidden] {
@@ -666,7 +666,7 @@ progress {
     max-width: 1320px;
   }
 }
-.row {
+/* .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
@@ -890,13 +890,13 @@ progress {
 .g-5,
 .gy-5 {
   --bs-gutter-y: 3rem;
-}
-
+} */
+/* 
 @media (min-width: 576px) {
   .col-sm {
     flex: 1 0 0%;
-  }
-  .row-cols-sm-auto > * {
+  } */
+  /* .row-cols-sm-auto > * {
     flex: 0 0 auto;
     width: auto;
   }
@@ -1060,7 +1060,7 @@ progress {
   .gy-sm-5 {
     --bs-gutter-y: 3rem;
   }
-}
+} */
 @media (min-width: 768px) {
   .col-md {
     flex: 1 0 0%;
@@ -7025,6 +7025,9 @@ textarea.form-control-lg {
 
 .d-flex {
   display: flex !important;
+  justify-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
 }
 
 .d-inline-flex {
@@ -10828,7 +10831,7 @@ textarea.form-control-lg {
 /* BODY */
 
 body {
-  background:url("../img/blackcubes.jpg") no-repeat center center fixed;
+  background:url("../img/finalbackground.jpg") no-repeat center center fixed;
    background-size:auto;
 align-content: center;
 justify-content: center; 
@@ -10926,7 +10929,7 @@ ul {
 
 body {
   min-height: 100vh;
-  display: flex;
+ 
   flex-direction: column; }
 
 
@@ -11003,7 +11006,7 @@ margin-left: 2.5rem;
   box-shadow: 0 2px 2px 5px HSLA(180, 100%, 10%, .50);
   /* background: rgba(255, 255, 255, 0.65);  */
   backdrop-filter: blur(25px); 
-  margin: 50px; 
+  /* margin: 50px;  */
   text-align: center; 
   align-self: center;
   width: 450px;
@@ -11161,20 +11164,20 @@ h1, h2, h3, h4, h5, h6 {
 
   /*Navbar*/
   .navbar {
-    height: 80px; /* Increased height */
+    height: 80px; 
 }
 
 .navbar-nav .nav-link {
-    font-weight: bold; /* Make navlinks bolder */
-    font-family: Arial, sans-serif; /* Change font-family */
+    font-weight: bold; /* bolder */
+    font-family: Arial, sans-serif; 
 } 
 
 .navbar {
   background-color: rgba(0, 0, 0, 0.7); /* Translucent black background */
   position: sticky; /* Sticky navbar */
-  top: 0; /* Position at the top of the viewport */
-  z-index: 1000; /* Ensure navbar stays on top */
-  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  top: 0; 
+  z-index: 1000; 
+  transition: background-color 0.3s ease; 
 }
 
 .navbar-brand {
@@ -11187,7 +11190,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-nav .nav-link:hover {
-  color: #ffc107; /* Standout color on hover */
+  color: lightblue; /* Standout color on hover */
 }
 
 /* Smooth animation for dropdown */
@@ -11261,7 +11264,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 50%;
   left: 50%;
   width: 300%;
-  height: 300%;
+
   background-color: rgba(255, 255, 255, 0.1);
   transition: all 0.3s ease;
   border-radius: 50%;

@@ -23,13 +23,26 @@
             display: flex;
             justify-content: space-between;
         }
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('./img/woodlights.jpg'); /* Replace 'your-background-image-url.jpg' with the actual URL of your background image */
+            background-size: cover;
+            background-repeat: no-repeat;        }
+
+        .card {
+            background-color: rgba(0, 0, 0, 0);
+            backdrop-filter: blur(25px); 
+       
+        }
+
     </style>
 </head>
 
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black" style="height: 15vh;">
         <div class="container">
             <!-- Toggler/collapsible Button -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -67,26 +80,69 @@
 
     <main>
         <!--Intro section-->
-        <div class="container-fluid">
-            <h2 class="display-2 text-center"
-                style="color: HSLA(180, 100%, 10%, 1); font-family: 'Copperplate'; font-weight: 600; margin-top: 20vh">Oliver
+        <div class="container-fluid justify-content-center">
+            <div class="row">
+          <div class="container d-flex">
+                <h2 class="display-2"
+                style="color: white; font-family: 'Copperplate'; font-weight: 600; ">Oliver
                 Jarjosa
             </h2>
-            <h3 class="text-light mt-4 px-4 my-4 text-center">Junior Web Developer</h3>
+            </div>
+            <div class="container d-flex">
+            <h1 class=" mt-4 my-5 row" style="color: white">Junior Web Developer</h1>
+            </div>
+        </div>
+          
+
+<div class="container">
+            <div class="row justify-content-center">
+                <ul id="skills-list" class="text-white col-6" style="text-align: start;">
+                    <li class="px-4 text-info" style="color:#ECFFDC">
+                        <p><i id="skills-icons" class="fa-brands fa-html5 fa-2xl"></i></p>
+                    </li>
+                    <li class="px-4  text-info" style="color:#ECFFDC">
+                        <p><i id="skills-icons" class="fa-brands fa-css3 fa-2xl"></i></p>
+                    </li>
+
+
+                    <li class="px-4 text-info" style="color:#ECFFDC">
+                        <p><i id="skills-icons" class="fa-brands fa-js fa-2xl"></i></p>
+                    </li>
+             
+                    <li class="px-4 text-info" style="color:#ECFFDC">
+                        <p><i class="fa-brands fa-react fa-2xl text-info"></i></p>
+                    </li>
+                    <li class="px-4 text-info" style="color:#ECFFDC">
+                        <p><<i class="fa-brands fa-node fa-2xl text-info" style="color: #ffffff;"></i></p>
+                    </li>
+                    <li class="px-4 text-info" style="color:#ECFFDC">
+                        <p><i class="fa-brands fa-codepen fa-2xl text-info" style="color: #ffffff;"></i></p>
+                    </li>
+
+                    <li class="px-4 text-info" style="color:#ECFFDC">
+                        <p><i id="skills-icons" class="fa-brands fa-square-github fa-2xl"></i></p>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+            <!--End Icons-->
+
+        <!--Begin Cards-->
             <div class="row justify-content-center">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 py-5 px-4">
-                    <div class="card d-flex">
-                        <p class="text-white my-4 py-4 my-4 px-4" style="font-size:medium;"><b>
+                    <div class="card mx-4 my-4">
+                        <p class="py-4 px-4 text-white" style="font-size:large;">
                             Over the course of my career and academic endeavors, I've developed a comprehensive skill
                             set that spans interpersonal communication, effective time management, and proficiency in web
                             development. Originating from a background in art and design, my journey has led me to a
-                            profound appreciation for the continuously evolving realm of technology.</b></p>
+                            profound appreciation for the continuously evolving realm of technology.</p>
                     </div>
-                    <!-- <div class="container-fluid d-flex justify-content-center">
-                    <img class="img-profile img-fluid " id="profile-photo" src="./img/pascal-meier-162MgumxoVI-unsplash.jpg"
-                        alt="Profile photo of Oliver Jarjosa">
-                    </div> -->
-                    <ul id="about-list" class=" text-white mx-4 my-4">
+                  
+                    <div class="container">
+                        <div class="card mx-4 my-4">
+                    <ul id="about-list" class=" mx-4 my-4 text-white" style="font-size: large">
                         <li class="py-2">Profound understanding of HTML, CSS & Java Script.
                         </li>
                         <li class="py-2">Set to receive my <b>Certification of Web Development from Kable
@@ -99,51 +155,35 @@
                         <li class="py-2">Creative, problem-solver, and keen attention to detail.</li>
                     </ul>
                 </div>
+            </div>
+            </div>
 <br>
                 <!-- Skills Section-->
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 py-5 px-4">
-                    <div class="card text-white">
-                        <h3 class="mb-4 text-light display-6 text-center my-4 py-4">Skills
+                    <div class="card">
+                        <h3 class="mb-4 text-light display-5 text-center my-4 py-4">Skills
                         </h3>
-                        <div class="row">
-                            <ul id="skills-list" class="text-white col-6" style="text-align: start;">
-                                <li class="px-4 text-info">
-                                    <p><i id="skills-icons" class="fa-brands fa-html5 fa-2xl"></i></p>
-                                </li>
-                                <li class="px-4 text-info">
-                                    <p><i id="skills-icons" class="fa-brands fa-css3 fa-2xl"></i></p>
-                                </li>
-
-                                <li class="px-4 text-info">
-                                    <p><i id="skills-icons" class="fa-brands fa-square-github fa-2xl"></i></p>
-                                </li>
-
-
-                                <li class="px-4 text-info">
-                                    <p><i id="skills-icons" class="fa-brands fa-js fa-2xl"></i></p>
-                                </li>
-                            </ul>
-                        </div>
+                     
 
                         <div>
-                            <ul id="about-list" class="list my-4 text-white">
-                                <li class="py-2">HTML5</li>
-                                <li class="py-2">CSS (Cascading Style Sheets)</li>
-                                <li class="py-2">Bootstrap</li>
-                                <li class="py-2">MERN Stack (Mongoose, Express, React & Node)</li>
-                                <li class="py-2">Java Script</li>
-                                <li class="py-2">Github</li>
-                                <li class="py-2">MongoDB</li>
-                                <li class="py-2">Postman</li>
-                                <li class="py-2">User Interface (UI)</li>
-                                <li class="py-2">Web Design</li>
-                                <li class="py-2">Interpersonal Relationships</li>
-                                <li class="py-2">Time management</li>
-                                <li class="py-2">Web Accessibility</li>
-                                <li class="py-2">Effective Communication</li>
-                                <li class="py-2">Problem Solver</li>
-                                <li class="py-2">Goal-oriented</li>
-                                <li class="py-2">Keen Eye for Detail</li>
+                            <ul id="about-list" class="list my-4" style="color: white; font-size: large;">
+                                <li class="py-2 mx-4">HTML5</li>
+                                <li class="py-2 mx-4">CSS (Cascading Style Sheets)</li>
+                                <li class="py-2 mx-4">Bootstrap</li>
+                                <li class="py-2 mx-4">MERN Stack (Mongoose, Express, React & Node)</li>
+                                <li class="py-2 mx-4">Java Script</li>
+                                <li class="py-2 mx-4">Github</li>
+                                <li class="py-2 mx-4">MongoDB</li>
+                                <li class="py-2 mx-4">Postman</li>
+                                <li class="py-2 mx-4">User Interface (UI)</li>
+                                <li class="py-2 mx-4">Web Design</li>
+                                <li class="py-2 mx-4">Interpersonal Relationships</li>
+                                <li class="py-2 mx-4">Time management</li>
+                                <li class="py-2 mx-4">Web Accessibility</li>
+                                <li class="py-2 mx-4">Effective Communication</li>
+                                <li class="py-2 mx-4">Problem Solver</li>
+                                <li class="py-2 mx-4">Goal-oriented</li>
+                                <li class="py-2 mx-4">Keen Eye for Detail</li>
                             </ul>
                         </div>
                     </div>
